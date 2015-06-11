@@ -1,8 +1,8 @@
 package apiSearch.output;
 
-public class Naive extends Output {
+public class Simple extends Output {
 
-	public Naive() {
+	public Simple() {
 		// TODO Auto-generated constructor stub
 	}
 
