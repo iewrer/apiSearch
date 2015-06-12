@@ -1,6 +1,9 @@
 package apiSearch.intermediate;
 
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+
 
 /**
  * 中间表示形式的基类，设计为抽象类，必须使用具体的子类来实现之。
@@ -13,12 +16,19 @@ public abstract class InterRep {
 	
 	String project;
 	String file;
-	Map<Integer, String> lineToCode; //lineNumber -> Code
+	ArrayList<Var> data;
 	public InterRep() {
 		// TODO Auto-generated constructor stub
+		data = new ArrayList<Var>();
 	}
 	
 	public abstract void read();
 	public abstract void write();
-
+	public ArrayList<Var> getData() {
+		return data;
+	}
+	public void setData(ArrayList<Var> data) {
+		this.data = data;
+	}
 }
+
