@@ -63,10 +63,10 @@ class MyVisitor extends ASTVisitor {
 		ITypeBinding p = t.getSuperclass();
 		while(p != null) {
 			String trimedPName = trimName(p.getQualifiedName());
-			if (debug) {
-				System.out.println("superclass: " + trimedPName);
-			}
 			if (trimedPName.equals(type)) {
+				if (debug) {
+					System.out.println("superclass: " + trimedPName);
+				}
 				if (debug) {
 					System.out.println("target !");
 				}
@@ -77,10 +77,11 @@ class MyVisitor extends ASTVisitor {
 		ITypeBinding[] in = t.getInterfaces();
 		for (int i = 0; i < in.length; i++) {
 			String trimedIName = trimName(in[i].getQualifiedName());
-			if (debug) {
-				System.out.println("interface: " + trimedIName);
-			}
+
 			if (trimedIName.equals(type)) {
+				if (debug) {
+					System.out.println("interface: " + trimedIName);
+				}
 				if (debug) {
 					System.out.println("target !");
 				}
@@ -102,16 +103,21 @@ class VarVisitor extends MyVisitor {
 	
 	public boolean visit(VariableDeclarationFragment node){
 		IBinding binding = node.resolveBinding();
+		if (binding == null) {
+			return true;
+		}
 		ITypeBinding t = ((IVariableBinding) binding).getType();
 		
-		if (debug) {
-			System.out.println("------------------");
-			System.out.println("binding variable declaration: " +((IVariableBinding) binding).getVariableDeclaration());
-			System.out.println(t.getQualifiedName());			
+		
+		if (t != null) {
+			if (debug) {
+				System.out.println("+++");
+				System.out.println(t.getQualifiedName());			
+			}
 		}
 		
 		if (t != null && isTarget(t)) {
-
+			
 			int pos = cu.getLineNumber(node.getStartPosition() - 1);
 
 			if (debug) {
@@ -191,16 +197,18 @@ class InvocationVisitor extends MyVisitor {
 		}
 		 
 		 exp.accept(nameVistor);
+		 
+		 if (typeBinding != null) {
+			 if (debug) {
+				 System.out.println("++++++");
+				 System.out.println("method: " + node.getName().getIdentifier());
+				 System.out.println("var: "+ var.getName().getIdentifier());
+			}
+		}
 
 		 if (typeBinding != null  && nameVistor.same && var_type.getQualifiedName().equals(typeBinding.getQualifiedName()) && node.getName().toString().equals(name)) {
 
 			 int pos = cu.getLineNumber(node.getStartPosition() - 1);
-			 
-			 if (debug) {
-				 System.out.println("------------------");
-				 System.out.println("method: " + node.getName().getIdentifier());
-				 System.out.println("var: "+ var.getName().getIdentifier());
-			}
 
 			 if (debug) {
 				 System.out.println("	exp:" + exp.toString());
@@ -266,6 +274,7 @@ public class JDTSearch extends Search {
 	}
 	
 	public ArrayList<Var> search(final CompilationUnit cu, boolean debug) {
+		
 		
 		VarVisitor varVisitor = new VarVisitor(cu, type, name);
 		

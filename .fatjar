@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Jun 22 16:10:44 HKT 2015
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=apiSearch_fat.jar
+manifest.mergeall=false
+manifest.mainclass=apiSearch.tool.Main
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

@@ -10,7 +10,11 @@ public class Input {
 	String search;
 	String parser;
 	
+	String language;
+	String api;
+	
 	String path;//整个代码库的存放位置
+	String savaPath;
 
 	public Input() {
 		// TODO Auto-generated constructor stub
@@ -20,36 +24,64 @@ public class Input {
 		search = new String();
 		path = new String();
 		parser = new String();
+		language = new String();
+		api = new String();
+		savaPath = new String();
 	}
 	
-	void read() throws Exception {
-		Scanner in = new Scanner(System.in);
-		while(in.hasNext()) {
-			String now = in.next();
-			if (now.startsWith("-create")) {
-				create = in.nextBoolean();
+	void read(String[] args) throws Exception {
+		
+		for (int i = 0; i < args.length; i++) {
+			String now = args[i];
+			if (now.startsWith("-read")) {
+				create = false;
 			}
-			else if (now.startsWith("-intermediate")) {
-				inter = in.next();
+			else if (now.startsWith("-intermediate")) {		
+				if (i + 1 < args.length && !args[i + 1].startsWith("-")) {
+					inter = args[i + 1];
+					i++;
+				}
+				else {
+					inter = "default";
+				}
 			}
 			else if (now.startsWith("-output")) {
-				output = in.next();
+				output = args[i + 1];
+				i++;
 			}
 			else if (now.startsWith("-search")) {
-				search = in.next();
+				search = args[i + 1];
+				i++;
 			}
-			else if (now.startsWith("-path")) {
-				path = in.next();
+			else if (now.startsWith("-codePath")) {
+				path = args[i + 1];
+				i++;
 			}
-			else if (now.startsWith("-paser")){
-				parser = in.next();
+			else if (now.startsWith("-parser")){
+				parser = args[i + 1];
+				i++;
+			}
+			else if (now.startsWith("-savePath")){
+				savaPath = args[i + 1];
+				i++;
+			}
+			else if (now.startsWith("-api")){
+				api = args[i + 1];
+				i++;
+			}
+			else if (now.startsWith("-language")){
+				language = args[i + 1];
+				i++;
 			}
 			else {
+				System.err.println(now);
 				throw new Exception("invalid option exist!");
-			}
+			}			
 		}
-		if (create && !path.isEmpty()) {
-			throw new Exception("create new search but intermediate path given!");
+		
+		if (output.isEmpty() || search.isEmpty() || parser.isEmpty() 
+				|| path.isEmpty() || savaPath.isEmpty() || api.isEmpty() || language.isEmpty()) {
+			throw new Exception("not enough option given! at least need: -output,-search,-parser,-codePath,-savePath,-intermediate,-api,-language");
 		}
 	}
 

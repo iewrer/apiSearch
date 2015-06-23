@@ -1,5 +1,6 @@
 package apiSearch.intermediate;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
@@ -11,8 +12,8 @@ import java.util.Set;
  * @author barry
  *
  */
-public abstract class InterRep {
-	String path; //中间表示形式的文件保存位置
+public class InterRep implements Serializable{
+//	String path; //中间表示形式的文件保存位置
 	
 	String project;
 	String file;
@@ -22,8 +23,6 @@ public abstract class InterRep {
 		data = new ArrayList<Var>();
 	}
 	
-	public abstract void read();
-	public abstract void write();
 	public ArrayList<Var> getData() {
 		return data;
 	}

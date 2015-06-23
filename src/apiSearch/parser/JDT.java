@@ -33,7 +33,8 @@ public class JDT extends Parser{
 					// classpath，绝对路径
 		            null,
 		            // sourcepath，绝对路径
-					new String[] { "/Users/barry/Documents/workspace/apiSearch/codehouse" }, 
+		            //"/Users/barry/Documents/workspace/apiSearch/codehouse"
+					new String[] { src }, 
 		            null, 
 		            true);
 			parser.setUnitName("AST");
@@ -43,9 +44,9 @@ public class JDT extends Parser{
 			parser.setBindingsRecovery(true);
 			final CompilationUnit cu = (CompilationUnit) parser.createAST(null);
 			
-			if (cu.getAST().hasResolvedBindings()) {
-				System.out.println("Binding activated.");
-			}
+//			if (cu.getAST().hasResolvedBindings()) {
+//				System.out.println("Binding activated.");
+//			}
 			root = cu;
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -53,6 +54,7 @@ public class JDT extends Parser{
 		}
 		
 	}
+
 	public String readFileToString(String filePath) throws IOException {
 		StringBuilder fileData = new StringBuilder(1000);
 		BufferedReader reader = new BufferedReader(new FileReader(filePath));
@@ -69,9 +71,15 @@ public class JDT extends Parser{
  
 		return  fileData.toString();	
 	}
+
 	public void SetFile(String path) {
 		this.path = path;
 	}
+	
+	public void setSrc(String src) {
+		this.src = src;
+	}
+	
 	public CompilationUnit getRoot() {
 		return root;
 	}

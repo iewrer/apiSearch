@@ -1,6 +1,6 @@
 package apiSearch.test;
 
-import apiSearch.intermediate.JSON;
+import apiSearch.intermediate.InterRep;
 import apiSearch.intermediate.Var;
 import apiSearch.parser.JDT;
 import apiSearch.search.JDTSearch;
@@ -13,20 +13,21 @@ public class testSearch {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String path = "./codehouse/Orienteering.java";
+		String path = "./codehouse/Orienteering/Orienteering.java";
 		
 		JDT jdt = new JDT("java");
 		jdt.SetFile(path);
+		jdt.setSrc("/Users/barry/Documents/workspace/apiSearch/codehouse");
 		jdt.parse();
 		
 		
-		JDTSearch search = new JDTSearch();
+		JDTSearch searcher = new JDTSearch();
 //		search.setAPI("org.eclipse.jdt.core.dom.ASTParser.setSource");
-		search.setAPI("java.util.Collection.size");
+		searcher.setAPI("java.util.Collection.size");
 		
-		JSON json = new JSON();
+		InterRep json = new InterRep();
 		
-		json.setData(search.search(jdt.getRoot(), false));
+		json.setData(searcher.search(jdt.getRoot(), true));
 		
 		for (Var i : json.getData()) {
 			System.out.println("----------");

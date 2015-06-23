@@ -33,7 +33,7 @@ public class Var {
 	public String toString() {
 		// TODO Auto-generated method stub
 		if (lineToCode.isEmpty()) {
-			return "";
+			return "not found";
 		}
 		String define = "line" + dec + ": " + code + "\n";
 		String methodinvoke = "";

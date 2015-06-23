@@ -26,8 +26,8 @@ public abstract class Search {
 		}
 		type += names.get(names.size() - 2);
 		
-		System.out.println(type);
-		System.out.println(name);
+//		System.out.println(type);
+//		System.out.println(name);
 	}
 
 }

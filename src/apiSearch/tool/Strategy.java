@@ -1,10 +1,10 @@
 package apiSearch.tool;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
 import apiSearch.intermediate.InterRep;
-import apiSearch.intermediate.JSON;
 import apiSearch.output.Output;
 import apiSearch.output.Simple;
 import apiSearch.parser.JDT;
@@ -18,7 +18,7 @@ import apiSearch.search.Search;
  *
  */
 
-public class Strategy {
+public abstract class Strategy {
 	
 	Input in;
 	Output out;
@@ -31,12 +31,15 @@ public class Strategy {
 	Set<String> validSearch;
 	Set<String> validInter;
 	Set<String> validOutput;
+	
+	ArrayList<Project> projects;
 
 	public Strategy(Input in) {
 		// TODO Auto-generated constructor stub
 		this.in = in;
 		setvalidParameter();
 		setStrategy();
+		projects = new ArrayList<Project>();
 	}
 
 	private void setvalidParameter() {
@@ -56,7 +59,7 @@ public class Strategy {
 	private void setvalidInter() {
 		// TODO Auto-generated method stub
 		validInter = new HashSet<>();
-		validInter.add("json");
+		validInter.add("default");
 	}
 
 	private void setvalidSearch() {
@@ -83,7 +86,7 @@ public class Strategy {
 	private void setParser() {
 		// TODO Auto-generated method stub
 		if (validParser.contains(in.parser)) {
-			parser = new JDT(in.search);
+			parser = new JDT(in.language);
 		}
 		else {
 			try {
@@ -127,8 +130,8 @@ public class Strategy {
 
 	private void setInter() {
 		// TODO Auto-generated method stub
-		if (validInter.contains(in.inter)) {
-			inter = new JSON();
+		if (validInter.contains(in.inter) || in.inter.isEmpty()) {
+			inter = new InterRep();
 		}
 		else {
 			try {
@@ -139,5 +142,6 @@ public class Strategy {
 			}
 		}
 	}
+	public abstract void strategy(String extension);
 
 }

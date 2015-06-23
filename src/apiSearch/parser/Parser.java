@@ -1,5 +1,9 @@
 package apiSearch.parser;
 
+import java.io.IOException;
+
+import org.eclipse.jdt.core.dom.CompilationUnit;
+
 public abstract class Parser {
 	
 	String language;//parser适用的语言
@@ -11,6 +15,6 @@ public abstract class Parser {
 		this.path = new String();
 	}
 	
-	abstract void parse();
+	public abstract void parse();
 
 }
