@@ -206,3 +206,4022 @@ line217: segments=uri.getPathSegments()
 line249: contents=service.getContents(RepositoryId.create(owner,name),path.toString(),branch)
 	line251: contents.size()
 
+----------------project output in simple mode-----------------------
+project name: elasticsearch 上午10.33.36
+project path: /Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36
+
+msg:found that following files have used this API...
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/apache/lucene/queryparser/classic/MapperQueryParser.java
+line170: fields=extractMultiFields(field)
+	line395: fields.size()
+	line460: fields.size()
+	line733: fields.size()
+	line172: fields.size()
+	line600: fields.size()
+	line328: fields.size()
+
+line191: clauses=new ArrayList<>()
+	line627: clauses.size()
+	line356: clauses.size()
+	line760: clauses.size()
+	line487: clauses.size()
+	line199: clauses.size()
+	line303: clauses.size()
+
+line275: fields=extractMultiFields(field)
+	line395: fields.size()
+	line460: fields.size()
+	line733: fields.size()
+	line172: fields.size()
+	line600: fields.size()
+	line328: fields.size()
+
+line294: clauses=new ArrayList<>()
+	line627: clauses.size()
+	line356: clauses.size()
+	line760: clauses.size()
+	line487: clauses.size()
+	line199: clauses.size()
+	line303: clauses.size()
+
+line321: fields=extractMultiFields(field)
+	line395: fields.size()
+	line460: fields.size()
+	line733: fields.size()
+	line172: fields.size()
+	line600: fields.size()
+	line328: fields.size()
+
+line348: clauses=new ArrayList<>()
+	line627: clauses.size()
+	line356: clauses.size()
+	line760: clauses.size()
+	line487: clauses.size()
+	line199: clauses.size()
+	line303: clauses.size()
+
+line393: fields=extractMultiFields(field)
+	line395: fields.size()
+	line460: fields.size()
+	line733: fields.size()
+	line172: fields.size()
+	line600: fields.size()
+	line328: fields.size()
+
+line414: clauses=new ArrayList<>()
+	line627: clauses.size()
+	line356: clauses.size()
+	line760: clauses.size()
+	line487: clauses.size()
+	line199: clauses.size()
+	line303: clauses.size()
+
+line458: fields=extractMultiFields(field)
+	line395: fields.size()
+	line460: fields.size()
+	line733: fields.size()
+	line172: fields.size()
+	line600: fields.size()
+	line328: fields.size()
+
+line479: clauses=new ArrayList<>()
+	line627: clauses.size()
+	line356: clauses.size()
+	line760: clauses.size()
+	line487: clauses.size()
+	line199: clauses.size()
+	line303: clauses.size()
+
+line537: tlist=new ArrayList<>()
+	line555: tlist.size()
+
+line559: clauses=new ArrayList<>()
+	line627: clauses.size()
+	line356: clauses.size()
+	line760: clauses.size()
+	line487: clauses.size()
+	line199: clauses.size()
+	line303: clauses.size()
+
+line598: fields=extractMultiFields(field)
+	line395: fields.size()
+	line460: fields.size()
+	line733: fields.size()
+	line172: fields.size()
+	line600: fields.size()
+	line328: fields.size()
+
+line619: clauses=new ArrayList<>()
+	line627: clauses.size()
+	line356: clauses.size()
+	line760: clauses.size()
+	line487: clauses.size()
+	line199: clauses.size()
+	line303: clauses.size()
+
+line731: fields=extractMultiFields(field)
+	line395: fields.size()
+	line460: fields.size()
+	line733: fields.size()
+	line172: fields.size()
+	line600: fields.size()
+	line328: fields.size()
+
+line752: clauses=new ArrayList<>()
+	line627: clauses.size()
+	line356: clauses.size()
+	line760: clauses.size()
+	line487: clauses.size()
+	line199: clauses.size()
+	line303: clauses.size()
+
+line826: fields=null
+	line395: fields.size()
+	line460: fields.size()
+	line733: fields.size()
+	line172: fields.size()
+	line600: fields.size()
+	line328: fields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/cluster/routing/allocation/decider/EnableAllocationDeciderIntegrationTest.java
+line63: test=assertAllShardsOnNodes("test",firstNode,secondNode)
+	line64: test.size()
+	line75: test.size()
+
+line71: test_1=assertAllShardsOnNodes("test_1",firstNode,secondNode)
+	line72: test_1.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/indices/upgrade/get/UpgradeStatusResponse.java
+line66: shards=Lists.newArrayList()
+	line72: shards.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/common/util/CollectionUtilsTests.java
+line49: list=new ArrayList<>()
+	line55: list.size()
+	line56: list.size()
+
+line53: rotated=CollectionUtils.rotate(list,distance)
+	line55: rotated.size()
+
+line105: values=new ArrayList<>()
+	line125: values.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/fieldvisitor/FieldsVisitor.java
+line69: fieldValues=entry.getValue()
+	line70: fieldValues.size()
+	line83: fieldValues.size()
+
+line82: fieldValues=entry.getValue()
+	line70: fieldValues.size()
+	line83: fieldValues.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/indices/template/get/GetIndexTemplatesResponse.java
+line35: indexTemplates
+	line61: indexTemplates.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/pipeline/DerivativeTests.java
+line266: buckets=new ArrayList<Bucket>(deriv.getBuckets())
+	line533: buckets.size()
+	line460: buckets.size()
+	line399: buckets.size()
+	line490: buckets.size()
+	line430: buckets.size()
+	line573: buckets.size()
+
+line312: buckets=new ArrayList<Bucket>(deriv.getBuckets())
+	line533: buckets.size()
+	line460: buckets.size()
+	line399: buckets.size()
+	line490: buckets.size()
+	line430: buckets.size()
+	line573: buckets.size()
+
+line398: buckets=deriv.getBuckets()
+	line533: buckets.size()
+	line460: buckets.size()
+	line399: buckets.size()
+	line490: buckets.size()
+	line430: buckets.size()
+	line573: buckets.size()
+
+line429: buckets=deriv.getBuckets()
+	line533: buckets.size()
+	line460: buckets.size()
+	line399: buckets.size()
+	line490: buckets.size()
+	line430: buckets.size()
+	line573: buckets.size()
+
+line459: buckets=deriv.getBuckets()
+	line533: buckets.size()
+	line460: buckets.size()
+	line399: buckets.size()
+	line490: buckets.size()
+	line430: buckets.size()
+	line573: buckets.size()
+
+line489: buckets=deriv.getBuckets()
+	line533: buckets.size()
+	line460: buckets.size()
+	line399: buckets.size()
+	line490: buckets.size()
+	line430: buckets.size()
+	line573: buckets.size()
+
+line532: buckets=deriv.getBuckets()
+	line533: buckets.size()
+	line460: buckets.size()
+	line399: buckets.size()
+	line490: buckets.size()
+	line430: buckets.size()
+	line573: buckets.size()
+
+line572: buckets=deriv.getBuckets()
+	line533: buckets.size()
+	line460: buckets.size()
+	line399: buckets.size()
+	line490: buckets.size()
+	line430: buckets.size()
+	line573: buckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/rest/action/termvectors/RestTermVectorsAction.java
+line98: selectedFields=termVectorsRequest.selectedFields()
+	line112: selectedFields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/bulk/BulkRequest.java
+line60: requests=Lists.newArrayList()
+	line461: requests.size()
+	line174: requests.size()
+	line172: requests.size()
+	line214: requests.size()
+	line503: requests.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/test/rest/section/ApiCallSection.java
+line37: bodies=Lists.newArrayList()
+	line69: bodies.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/test/rest/json/JsonPath.java
+line78: list=(List<Object>)object
+	line84: list.size()
+
+line92: list=Lists.newArrayList()
+	line121: list.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/cluster/routing/OperationRouting.java
+line81: shards=computeTargetedShards(clusterState,concreteIndices,routing)
+	line87: shards.size()
+	line82: shards.size()
+
+line86: shards=computeTargetedShards(clusterState,concreteIndices,routing)
+	line87: shards.size()
+	line82: shards.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/plugins/cloud-gce/src/test/java/org/elasticsearch/discovery/gce/mock/GceComputeServiceZeroNodeMock.java
+line63: instanceList=Lists.newArrayList(Iterables.concat(instanceListByZone))
+	line65: instanceList.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/cluster/routing/allocation/FilterRoutingTests.java
+line88: startedShards=clusterState.routingNodes().shardsWithState(ShardRoutingState.STARTED)
+	line138: startedShards.size()
+	line89: startedShards.size()
+	line164: startedShards.size()
+
+line137: startedShards=clusterState.routingNodes().shardsWithState(ShardRoutingState.STARTED)
+	line138: startedShards.size()
+	line89: startedShards.size()
+	line164: startedShards.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/action/support/TransportActionFilterChainTests.java
+line55: orders=new HashSet<>(numFilters)
+	line138: orders.size()
+	line56: orders.size()
+
+line82: expectedActionFilters=Lists.newArrayList()
+	line206: expectedActionFilters.size()
+	line124: expectedActionFilters.size()
+
+line137: orders=new HashSet<>(numFilters)
+	line138: orders.size()
+	line56: orders.size()
+
+line164: expectedActionFilters=Lists.newArrayList()
+	line206: expectedActionFilters.size()
+	line124: expectedActionFilters.size()
+
+line243: failures=new CopyOnWriteArrayList<>()
+	line325: failures.size()
+	line267: failures.size()
+
+line301: failures=new CopyOnWriteArrayList<>()
+	line325: failures.size()
+	line267: failures.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/metrics/PercentileRanksTests.java
+line81: percentileList=Lists.newArrayList(percentiles)
+	line97: percentileList.size()
+	line82: percentileList.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/geo/builders/GeometryCollectionBuilder.java
+line122: shapes=new ArrayList<>(this.shapes.size())
+	line128: shapes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/script/ScriptServiceTests.java
+line54: scriptEngineServices
+	line253: this.scriptEngineServices.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/bwcompat/BasicAnalysisBackwardCompatibilityTests.java
+line95: tokens=test.getTokens()
+	line98: tokens.size()
+	line97: tokens.size()
+
+line96: expectedTokens=inputOutput.response.getTokens()
+	line97: expectedTokens.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/gateway/TransportNodesListGatewayStartedShards.java
+line96: nodesList=Lists.newArrayList()
+	line108: nodesList.size()
+
+line97: failures=Lists.newArrayList()
+	line109: failures.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/highlight/vectorhighlight/SourceSimpleFragmentsBuilder.java
+line59: values=sourceLookup.extractRawValues(hitContext.getSourcePath(mapper.fieldType().names().fullName()))
+	line64: values.size()
+	line63: values.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/cluster/DiffableUtils.java
+line230: deletes
+	line265: deletes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/sort/GeoDistanceSortBuilder.java
+line41: points=new ArrayList<>()
+	line152: points.size()
+
+line42: geohashes=new ArrayList<>()
+	line152: geohashes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/index/engine/InternalEngineTests.java
+line268: segments=engine.segments(false)
+	line440: segments.size()
+	line342: segments.size()
+	line409: segments.size()
+	line398: segments.size()
+	line432: segments.size()
+	line283: segments.size()
+	line316: segments.size()
+	line301: segments.size()
+	line363: segments.size()
+
+line390: segments=engine.segments(true)
+	line440: segments.size()
+	line342: segments.size()
+	line409: segments.size()
+	line398: segments.size()
+	line432: segments.size()
+	line283: segments.size()
+	line316: segments.size()
+	line301: segments.size()
+	line363: segments.size()
+
+line431: segments=engine.segments(false)
+	line440: segments.size()
+	line342: segments.size()
+	line409: segments.size()
+	line398: segments.size()
+	line432: segments.size()
+	line283: segments.size()
+	line316: segments.size()
+	line301: segments.size()
+	line363: segments.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/gateway/AsyncShardFetch.java
+line106: nodesToFetch=findNodesToFetch(cache)
+	line112: nodesToFetch.size()
+
+line126: failedNodes=new HashSet<>()
+	line153: failedNodes.size()
+
+line146: allIgnoreNodes=ImmutableSet.copyOf(nodesToIgnore)
+	line153: allIgnoreNodes.size()
+
+line239: nodesToFetch=new HashSet<>()
+	line112: nodesToFetch.size()
+
+line292: failedNodes
+	line153: failedNodes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/bucket/SamplerTests.java
+line110: genreBuckets=genres.getBuckets()
+	line112: genreBuckets.size()
+
+line184: genreBuckets=genres.getBuckets()
+	line112: genreBuckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/pipeline/seriesarithmetic/SeriesArithmeticParser.java
+line79: paths=new ArrayList<>()
+	line85: paths.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/http/netty/ESHttpResponseEncoder.java
+line45: decompose=ccb.decompose(ccb.readerIndex(),ccb.readableBytes())
+	line47: decompose.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/index/fielddata/AbstractStringFieldDataTests.java
+line363: docs=new ArrayList<>()
+	line384: docs.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/translog/Translog.java
+line645: orderedTranslogs
+	line669: orderedTranslogs.size()
+	line710: orderedTranslogs.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/suggest/Suggest.java
+line63: suggestions
+	line138: suggestions.size()
+	line99: suggestions.size()
+	line93: suggestions.size()
+
+line200: entries=new ArrayList<>(5)
+	line309: entries.size()
+
+line349: options
+	line493: options.size()
+	line442: options.size()
+	line444: options.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/indices/recovery/RecoveryResponse.java
+line83: responses=shardResponses.get(index)
+	line84: responses.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/plugins/lang-javascript/src/test/java/org/elasticsearch/script/javascript/JavaScriptScriptSearchTests.java
+line139: sObj2Arr2=(List)sObj2.get("arr2")
+	line140: sObj2Arr2.size()
+	line145: sObj2Arr2.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/inject/assistedinject/FactoryProvider.java
+line212: constructors=Lists.newArrayList()
+	line232: constructors.size()
+	line229: constructors.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/bwcompat/RestoreBackwardsCompatTests.java
+line70: repoVersions=repoVersions()
+	line71: repoVersions.size()
+	line108: repoVersions.size()
+
+line107: repoVersions=unsupportedRepoVersions()
+	line71: repoVersions.size()
+	line108: repoVersions.size()
+
+line128: repoVersions=newArrayList()
+	line71: repoVersions.size()
+	line108: repoVersions.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/sort/SimpleSortTests.java
+line144: builders=new ArrayList<>()
+	line157: builders.size()
+
+line513: builders=new ArrayList<>()
+	line157: builders.size()
+
+line1803: points=new ArrayList<>()
+	line1807: points.size()
+	line1809: points.size()
+
+line1842: qPoints=new ArrayList<>()
+	line1879: qPoints.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/test/InternalTestCluster.java
+line495: values=Collections2.filter(nodes.values(),predicate)
+	line497: values.size()
+
+line1140: addresses=Lists.newArrayList()
+	line1144: addresses.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/common/geo/GeoJSONShapeParserTests.java
+line70: lineCoordinates=new ArrayList<>()
+	line138: lineCoordinates.size()
+	line75: lineCoordinates.size()
+
+line133: lineCoordinates=new ArrayList<>()
+	line138: lineCoordinates.size()
+	line75: lineCoordinates.size()
+
+line200: shellCoordinates=new ArrayList<>()
+	line610: shellCoordinates.size()
+	line712: shellCoordinates.size()
+	line207: shellCoordinates.size()
+	line699: shellCoordinates.size()
+	line757: shellCoordinates.size()
+
+line595: shellCoordinates=new ArrayList<>()
+	line610: shellCoordinates.size()
+	line712: shellCoordinates.size()
+	line207: shellCoordinates.size()
+	line699: shellCoordinates.size()
+	line757: shellCoordinates.size()
+
+line602: holeCoordinates=new ArrayList<>()
+	line701: holeCoordinates.size()
+	line613: holeCoordinates.size()
+	line759: holeCoordinates.size()
+
+line685: shellCoordinates=new ArrayList<>()
+	line610: shellCoordinates.size()
+	line712: shellCoordinates.size()
+	line207: shellCoordinates.size()
+	line699: shellCoordinates.size()
+	line757: shellCoordinates.size()
+
+line692: holeCoordinates=new ArrayList<>()
+	line701: holeCoordinates.size()
+	line613: holeCoordinates.size()
+	line759: holeCoordinates.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/benchmark/scripts/score/BasicScriptBenchmark.java
+line138: termsList=new ArrayList<>()
+	line251: termsList.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/geo/builders/ShapeBuilder.java
+line396: children
+	line854: coordinates.children.size()
+	line904: coordinates.children.size()
+	line886: coordinates.children.size()
+	line888: coordinates.children.size()
+	line890: coordinates.children.size()
+	line856: coordinates.children.size()
+	line808: coordinates.children.size()
+	line809: coordinates.children.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/action/support/replication/ShardReplicationTests.java
+line317: capturedRequests=transport.capturedRequestsByTargetNode().get(primaryNodeId)
+	line319: capturedRequests.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/index/engine/ShadowEngineTests.java
+line274: segments=primaryEngine.segments(false)
+	line395: segments.size()
+	line372: segments.size()
+	line289: segments.size()
+	line306: segments.size()
+	line475: segments.size()
+	line323: segments.size()
+	line454: segments.size()
+	line419: segments.size()
+	line332: segments.size()
+	line348: segments.size()
+	line314: segments.size()
+	line465: segments.size()
+
+line446: segments=primaryEngine.segments(true)
+	line395: segments.size()
+	line372: segments.size()
+	line289: segments.size()
+	line306: segments.size()
+	line475: segments.size()
+	line323: segments.size()
+	line454: segments.size()
+	line419: segments.size()
+	line332: segments.size()
+	line348: segments.size()
+	line314: segments.size()
+	line465: segments.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/monitor/jvm/JvmInfo.java
+line81: gcMxBeans=ManagementFactory.getGarbageCollectorMXBeans()
+	line83: gcMxBeans.size()
+	line82: gcMxBeans.size()
+
+line88: memoryPoolMXBeans=ManagementFactory.getMemoryPoolMXBeans()
+	line89: memoryPoolMXBeans.size()
+	line90: memoryPoolMXBeans.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/bulk/BulkShardRequest.java
+line66: indices=new ArrayList<>()
+	line72: indices.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/lucene/index/FilterableTermsEnum.java
+line81: leaves=reader.leaves()
+	line82: leaves.size()
+
+line82: enums=Lists.newArrayListWithExpectedSize(leaves.size())
+	line122: enums.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/query/IdsQueryParser.java
+line60: types=null
+	line120: types.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/indices/segments/IndicesSegmentResponse.java
+line70: shards=Lists.newArrayList()
+	line76: shards.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/pipeline/bucketmetrics/BucketMetricsPipelineAggregator.java
+line66: bucketsPath=AggregationPath.parse(bucketsPaths()[0]).getPathElementsAsStringList()
+	line69: bucketsPath.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/cluster/node/hotthreads/TransportNodesHotThreadsAction.java
+line55: nodes=Lists.newArrayList()
+	line62: nodes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/test/CompositeTestCluster.java
+line142: runningNodes=runningNodes()
+	line273: runningNodes().size()
+	line203: runningNodes().size()
+	line213: runningNodes().size()
+	line208: runningNodes().size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/index/fielddata/LongFieldDataTests.java
+line391: values=new ArrayList<>(numDocs)
+	line352: values.size()
+	line333: values.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/test/ElasticsearchIntegrationTest.java
+line771: created=new ArrayList<>()
+	line780: created.size()
+
+line1341: indicesSet=new HashSet<>()
+	line1359: indicesSet.size()
+	line1348: indicesSet.size()
+
+line1362: inFlightAsyncOperations=new ArrayList<>()
+	line1478: inFlightAsyncOperations.size()
+	line1477: inFlightAsyncOperations.size()
+
+line1379: partition=Lists.partition(builders,Math.min(MAX_BULK_INDEX_REQUEST_SIZE,Math.max(1,(int)(builders.size() * randomDouble()))))
+	line1381: partition.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/search/MatchQuery.java
+line244: terms=pq.getTermArrays()
+	line246: terms.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/highlight/PlainHighlighter.java
+line99: textsToHighlight
+	line140: textsToHighlight.size()
+	line159: textsToHighlight.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/common/xcontent/builder/XContentBuilderTests.java
+line219: terms=new ArrayList<>(numTerms)
+	line261: terms.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/cluster/metadata/MetaData.java
+line180: allIndicesLst=Lists.newArrayList()
+	line184: allIndicesLst.size()
+	line185: allIndicesLst.size()
+
+line187: allOpenIndices=Lists.newArrayList()
+	line197: allOpenIndices.size()
+
+line188: allClosedIndices=Lists.newArrayList()
+	line198: allClosedIndices.size()
+
+line717: actualIndices=new HashSet<>(Arrays.asList(aliasesOrIndices))
+	line734: actualIndices.size()
+	line719: actualIndices.size()
+
+line725: actualIndices=new HashSet<>()
+	line734: actualIndices.size()
+	line719: actualIndices.size()
+
+line1021: filteringAliases=null
+	line1053: filteringAliases.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/bucket/GeoHashGridTests.java
+line147: buckets=geoGrid.getBuckets()
+	line150: buckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/pipeline/movavg/MovAvgParser.java
+line110: paths=new ArrayList<>()
+	line115: paths.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/test/ElasticsearchAllocationTestCase.java
+line72: list=new ArrayList<>()
+	line87: list.size()
+
+line117: initializingShards=clusterState.routingNodes().shardsWithState(INITIALIZING)
+	line121: initializingShards.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/cluster/node/stats/TransportNodesStatsAction.java
+line58: nodeStats=Lists.newArrayList()
+	line65: nodeStats.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/cluster/node/info/PluginsInfo.java
+line39: infos
+	line73: infos.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/cluster/tasks/PendingClusterTasksResponse.java
+line40: pendingTasks
+	line67: pendingTasks.size()
+	line131: pendingTasks.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/rest/action/cat/RestRecoveryAction.java
+line121: shardRecoveryResponses=response.shardResponses().get(index)
+	line122: shardRecoveryResponses.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/bucket/filters/InternalFilters.java
+line162: buckets
+	line249: buckets.size()
+	line197: buckets.size()
+	line121: buckets.size()
+	line211: filters.buckets.size()
+
+line207: bucketsList=null
+	line225: bucketsList.size()
+
+line236: buckets=Lists.newArrayListWithCapacity(size)
+	line249: buckets.size()
+	line197: buckets.size()
+	line121: buckets.size()
+	line211: filters.buckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/fielddata/ScriptDocValues.java
+line218: points=getValues()
+	line220: points.size()
+	line219: points.size()
+	line229: points.size()
+	line228: points.size()
+
+line227: points=getValues()
+	line220: points.size()
+	line219: points.size()
+	line229: points.size()
+	line228: points.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/snapshots/SnapshotInfo.java
+line49: indices
+	line272: indices.size()
+
+line59: shardFailures
+	line184: shardFailures.size()
+	line282: shardFailures.size()
+	line181: shardFailures.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/suggest/phrase/PhraseSuggester.java
+line78: generators=suggestion.generators()
+	line80: generators.size()
+	line79: generators.size()
+
+line80: gens=new ArrayList<>(generators.size())
+	line99: gens.size()
+	line92: gens.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/percolator/PercolatorFacetsAndAggregationsTests.java
+line108: aggregations=response.getAggregations().asList()
+	line109: aggregations.size()
+
+line111: buckets=new ArrayList<>(((Terms)aggregations.get(0)).getBuckets())
+	line258: buckets.size()
+	line112: buckets.size()
+	line179: buckets.size()
+
+line178: buckets=new ArrayList<>(terms.getBuckets())
+	line258: buckets.size()
+	line112: buckets.size()
+	line179: buckets.size()
+
+line257: buckets=new ArrayList<>(terms.getBuckets())
+	line258: buckets.size()
+	line112: buckets.size()
+	line179: buckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/rest/action/cat/RestThreadPoolAction.java
+line310: requestedPools=new LinkedHashSet<>(headers.length)
+	line323: requestedPools.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/common/logging/jdk/JDKESLoggerTests.java
+line61: records=testHandler.getEvents()
+	line63: records.size()
+
+line98: records=new ArrayList<>()
+	line63: records.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/env/NodeEnvironmentTests.java
+line141: indices=env.findAllIndices()
+	line142: indices.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/common/util/concurrent/PrioritizedExecutorsTests.java
+line65: results=new ArrayList<>(8)
+	line170: results.size()
+	line140: results.size()
+	line80: results.size()
+	line110: results.size()
+
+line95: results=new ArrayList<>(8)
+	line170: results.size()
+	line140: results.size()
+	line80: results.size()
+	line110: results.size()
+
+line125: results=new ArrayList<>(8)
+	line170: results.size()
+	line140: results.size()
+	line80: results.size()
+	line110: results.size()
+
+line155: results=new ArrayList<>(8)
+	line170: results.size()
+	line140: results.size()
+	line80: results.size()
+	line110: results.size()
+
+line293: results
+	line170: results.size()
+	line140: results.size()
+	line80: results.size()
+	line110: results.size()
+
+line313: results
+	line170: results.size()
+	line140: results.size()
+	line80: results.size()
+	line110: results.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/rest/action/admin/cluster/node/info/RestNodesInfoAction.java
+line63: metrics
+	line85: metrics.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/cluster/routing/allocation/RoutingExplanations.java
+line37: explanations
+	line69: explanations.explanations.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/query/MoreLikeThisQueryParser.java
+line101: moreLikeFields=null
+	line273: moreLikeFields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/StopWatch.java
+line56: taskList=new LinkedList<>()
+	line209: this.taskList.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/mapper/internal/SourceFieldMapper.java
+line182: values=(List<Object>)fieldNode
+	line191: values.size()
+	line183: values.size()
+
+line190: values=(List<Object>)fieldNode
+	line191: values.size()
+	line183: values.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/query/QuerySearchResult.java
+line52: pipelineAggregators
+	line218: pipelineAggregators.size()
+
+line181: pipelineAggregators=new ArrayList<>(size)
+	line218: pipelineAggregators.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/indices/template/put/PutIndexTemplateRequest.java
+line69: aliases=newHashSet()
+	line470: aliases.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/query/GeoPolygonQueryParser.java
+line71: shell=Lists.newArrayList()
+	line129: shell.size()
+	line126: shell.size()
+	line149: shell.size()
+	line122: shell.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/node/internal/InternalSettingsPreparerTests.java
+line87: replacedSecretProperties=new ArrayList<>()
+	line118: replacedSecretProperties.size()
+
+line88: replacedTextProperties=new ArrayList<>()
+	line119: replacedTextProperties.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/inject/InheritingState.java
+line123: parentBindings=parent.getTypeListenerBindings()
+	line125: parentBindings.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/snapshots/AbstractSnapshotTests.java
+line103: snapshotInfos=client().admin().cluster().prepareGetSnapshots(repository).setSnapshots(snapshot).get().getSnapshots()
+	line104: snapshotInfos.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/common/logging/log4j/Log4jESLoggerTests.java
+line94: events=testAppender.getEvents()
+	line96: events.size()
+
+line151: events=new ArrayList<>()
+	line96: events.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/test/disruption/NetworkPartition.java
+line39: nodesSideOne
+	line86: nodesSideOne.size()
+	line159: nodesSideOne.size()
+	line178: nodesSideOne.size()
+	line78: nodesSideOne.size()
+
+line40: nodesSideTwo
+	line86: nodesSideTwo.size()
+	line159: nodesSideTwo.size()
+	line178: nodesSideTwo.size()
+	line78: nodesSideTwo.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/indices/stats/IndicesStatsResponse.java
+line97: shards=Lists.newArrayList()
+	line103: shards.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/plugins/cloud-azure/src/main/java/org/elasticsearch/discovery/azure/AzureUnicastHostsProvider.java
+line98: cachedDiscoNodes
+	line265: cachedDiscoNodes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/rest/RestFilterChainTests.java
+line48: orders=new HashSet<>(numFilters)
+	line49: orders.size()
+
+line68: expectedRestFilters=Lists.newArrayList()
+	line110: expectedRestFilters.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/index/fielddata/ordinals/MultiOrdinalsTests.java
+line113: docOrds=new ArrayList<>()
+	line127: docOrds.size()
+	line123: docOrds.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/fetch/source/FetchSourceParseElement.java
+line53: includes=null
+	line94: includes.size()
+
+line53: excludes=null
+	line95: excludes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/indices/recovery/IndexRecoveryTests.java
+line161: shardResponses=response.shardResponses().get(INDEX_NAME)
+	line187: shardResponses.size()
+	line213: shardResponses.size()
+	line162: shardResponses.size()
+	line329: shardResponses.size()
+
+line186: shardResponses=response.shardResponses().get(INDEX_NAME)
+	line187: shardResponses.size()
+	line213: shardResponses.size()
+	line162: shardResponses.size()
+	line329: shardResponses.size()
+
+line212: shardResponses=response.shardResponses().get(INDEX_NAME)
+	line187: shardResponses.size()
+	line213: shardResponses.size()
+	line162: shardResponses.size()
+	line329: shardResponses.size()
+
+line215: nodeAResponses=findRecoveriesForTargetNode(nodeA,shardResponses)
+	line216: nodeAResponses.size()
+	line383: nodeAResponses.size()
+	line407: nodeAResponses.size()
+	line271: nodeAResponses.size()
+
+line217: nodeBResponses=findRecoveriesForTargetNode(nodeB,shardResponses)
+	line273: nodeBResponses.size()
+	line409: nodeBResponses.size()
+	line218: nodeBResponses.size()
+	line385: nodeBResponses.size()
+
+line269: shardResponses=response.shardResponses().get(INDEX_NAME)
+	line187: shardResponses.size()
+	line213: shardResponses.size()
+	line162: shardResponses.size()
+	line329: shardResponses.size()
+
+line270: nodeAResponses=findRecoveriesForTargetNode(nodeA,shardResponses)
+	line216: nodeAResponses.size()
+	line383: nodeAResponses.size()
+	line407: nodeAResponses.size()
+	line271: nodeAResponses.size()
+
+line272: nodeBResponses=findRecoveriesForTargetNode(nodeB,shardResponses)
+	line273: nodeBResponses.size()
+	line409: nodeBResponses.size()
+	line218: nodeBResponses.size()
+	line385: nodeBResponses.size()
+
+line386: nodeCResponses=findRecoveriesForTargetNode(nodeC,shardResponses)
+	line411: nodeCResponses.size()
+	line387: nodeCResponses.size()
+
+line463: shardRecoveryResponses=shardRecoveryResponse.getValue()
+	line464: shardRecoveryResponses.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/termvectors/TermVectorsRequest.java
+line72: selectedFields
+	line548: selectedFields.size()
+
+line580: fields=new ArrayList<>()
+	line637: fields.size()
+	line636: fields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/highlight/vectorhighlight/SourceScoreOrderFragmentsBuilder.java
+line63: values=sourceLookup.extractRawValues(hitContext.getSourcePath(mapper.fieldType().names().fullName()))
+	line64: values.size()
+	line65: values.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/indices/alias/IndicesAliasesRequest.java
+line57: allAliasActions=Lists.newArrayList()
+	line341: allAliasActions.size()
+
+line185: finalAliases=new ArrayList<>()
+	line191: finalAliases.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/indices/alias/TransportIndicesAliasesAction.java
+line69: indices=Sets.newHashSet()
+	line75: indices.size()
+
+line82: actions=request.aliasActions()
+	line102: actions.size()
+
+line83: finalActions=new ArrayList<>()
+	line108: finalActions.size()
+
+line85: aliases=new HashSet<>()
+	line103: aliases.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/query/SpanOrQueryParser.java
+line57: clauses=newArrayList()
+	line90: clauses.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/store/Store.java
+line1130: identical
+	line1150: identical.size()
+	line616: recoveryDiff.identical.size()
+
+line1134: different
+	line1150: different.size()
+
+line1138: missing
+	line1150: missing.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/cluster/routing/RoutingNode.java
+line42: shards
+	line81: shards.size()
+	line188: shards.size()
+
+line121: shards=newArrayList()
+	line81: shards.size()
+	line188: shards.size()
+
+line139: shards=newArrayList()
+	line81: shards.size()
+	line188: shards.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/search/MultiSearchRequest.java
+line53: requests=Lists.newArrayList()
+	line233: requests.size()
+	line197: requests.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/AggregationsBinaryTests.java
+line93: subTermsBuckets=subTerms.getBuckets()
+	line137: subTermsBuckets.size()
+	line95: subTermsBuckets.size()
+
+line135: subTermsBuckets=subTerms.getBuckets()
+	line137: subTermsBuckets.size()
+	line95: subTermsBuckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/sort/GeoDistanceSortParser.java
+line69: geoPoints=new ArrayList<>()
+	line149: geoPoints.size()
+	line150: geoPoints.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/AggregationPhase.java
+line147: pipelineAggregators=context.aggregations().factories().createPipelineAggregators()
+	line148: pipelineAggregators.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/geo/GeoFilterTests.java
+line513: filterBuilders=new ArrayList<>(expectedCounts.keySet())
+	line514: filterBuilders.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/settings/Settings.java
+line649: result=Lists.newArrayList()
+	line675: result.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/versioning/SimpleVersioningTests.java
+line559: idsSet=new HashSet<>()
+	line578: idsSet.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/test/rest/test/JsonPathTests.java
+line94: list=(List)object
+	line95: list.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/bucket/IPv4RangeTests.java
+line76: builders=new ArrayList<>()
+	line84: builders.size()
+
+line863: buckets=new ArrayList<Range.Bucket>(range.getBuckets())
+	line866: buckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/xcontent/support/filtering/FilteringJsonGenerator.java
+line53: contexts=new ArrayDeque<>()
+	line108: contexts.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/index/fielddata/DuelFieldDataTests.java
+line151: vals=new HashSet<Byte>()
+	line156: vals.size()
+
+line234: vals=new HashSet<Float>()
+	line242: vals.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/fetch/matchedqueries/MatchedQueriesFetchSubPhase.java
+line66: matchedQueries=Lists.newArrayListWithCapacity(2)
+	line80: matchedQueries.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/test/rest/spec/RestApi.java
+line39: paths=Lists.newArrayList()
+	line181: paths.size()
+
+line136: matchingRestPaths=findMatchingRestPaths(pathParams.keySet())
+	line141: matchingRestPaths.size()
+	line142: matchingRestPaths.size()
+
+line166: matchingRestPaths=Lists.newArrayList()
+	line141: matchingRestPaths.size()
+	line142: matchingRestPaths.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/apache/lucene/queries/BlendedTermQuery.java
+line183: leaves=termContext.topReaderContext.leaves()
+	line217: leaves.size()
+	line188: leaves.size()
+
+line212: leaves=ctx.topReaderContext.leaves()
+	line217: leaves.size()
+	line188: leaves.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/suggest/ContextSuggestSearchTests.java
+line162: precisions=new ArrayList<>()
+	line188: precisions.size()
+	line173: precisions.size()
+
+line383: options=entry.getOptions()
+	line384: options.size()
+
+line866: options=entry.getOptions()
+	line384: options.size()
+
+line888: options=entry.getOptions()
+	line384: options.size()
+
+line915: options=entry.getOptions()
+	line384: options.size()
+
+line942: options=entry.getOptions()
+	line384: options.size()
+
+line966: options=entry.getOptions()
+	line384: options.size()
+
+line991: options=entry.getOptions()
+	line384: options.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/bulk/TransportBulkAction.java
+line308: requests=entry.getValue()
+	line309: requests.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/internal/InternalSearchHitField.java
+line38: values
+	line110: values.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/common/hppc/HppcMapsTests.java
+line40: values=toList(HppcMaps.intersection(set1,set2))
+	line70: values.size()
+	line49: values.size()
+	line55: values.size()
+	line65: values.size()
+	line41: values.size()
+	line60: values.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/indices/leaks/IndicesLeaksTests.java
+line64: indexReferences=new ArrayList<>()
+	line108: indexReferences.size()
+
+line65: shardReferences=new ArrayList<>()
+	line108: shardReferences.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/EquivalenceTests.java
+line393: t1Buckets=t1.getBuckets()
+	line395: t1Buckets.size()
+
+line394: t2Buckets=t1.getBuckets()
+	line395: t2Buckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/snapshots/DedicatedClusterSnapshotRestoreTests.java
+line697: indices=new CopyOnWriteArrayList<>()
+	line751: indices.size()
+	line752: indices.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/Table.java
+line34: headers=new ArrayList<>()
+	line85: headers.size()
+	line112: headers.size()
+	line77: headers.size()
+	line90: headers.size()
+
+line38: currentCells
+	line85: currentCells.size()
+	line141: currentCells.size()
+	line112: currentCells.size()
+	line128: currentCells.size()
+	line122: currentCells.size()
+	line88: currentCells.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/pipeline/bucketmetrics/max/MaxBucketPipelineAggregator.java
+line58: maxBucketKeys
+	line93: maxBucketKeys.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/indices/warmer/put/TransportPutWarmerAction.java
+line138: entries=new ArrayList<>(warmers.entries().size() + 1)
+	line153: entries.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/indices/store/TransportNodesListShardStoreMetaData.java
+line104: nodeStoreFilesMetaDatas=Lists.newArrayList()
+	line116: nodeStoreFilesMetaDatas.size()
+
+line105: failures=Lists.newArrayList()
+	line117: failures.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/apache/lucene/queries/BlendedTermQueryTest.java
+line226: terms=new HashSet<>()
+	line237: terms.size()
+
+line234: extracted=new HashSet<>()
+	line237: extracted.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/logging/Loggers.java
+line78: prefixesList=newArrayList()
+	line100: prefixesList.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/engine/InternalEngine.java
+line1090: readers=Lists.newArrayList()
+	line1109: readers.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/engine/Segment.java
+line198: children=tree.getChildResources()
+	line199: children.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/bucket/ShardSizeTermsTests.java
+line50: buckets=terms.getBuckets()
+	line102: buckets.size()
+	line205: buckets.size()
+	line309: buckets.size()
+	line413: buckets.size()
+	line76: buckets.size()
+	line231: buckets.size()
+	line283: buckets.size()
+	line128: buckets.size()
+	line51: buckets.size()
+	line153: buckets.size()
+	line257: buckets.size()
+	line387: buckets.size()
+	line179: buckets.size()
+	line335: buckets.size()
+	line361: buckets.size()
+
+line75: buckets=terms.getBuckets()
+	line102: buckets.size()
+	line205: buckets.size()
+	line309: buckets.size()
+	line413: buckets.size()
+	line76: buckets.size()
+	line231: buckets.size()
+	line283: buckets.size()
+	line128: buckets.size()
+	line51: buckets.size()
+	line153: buckets.size()
+	line257: buckets.size()
+	line387: buckets.size()
+	line179: buckets.size()
+	line335: buckets.size()
+	line361: buckets.size()
+
+line101: buckets=terms.getBuckets()
+	line102: buckets.size()
+	line205: buckets.size()
+	line309: buckets.size()
+	line413: buckets.size()
+	line76: buckets.size()
+	line231: buckets.size()
+	line283: buckets.size()
+	line128: buckets.size()
+	line51: buckets.size()
+	line153: buckets.size()
+	line257: buckets.size()
+	line387: buckets.size()
+	line179: buckets.size()
+	line335: buckets.size()
+	line361: buckets.size()
+
+line127: buckets=terms.getBuckets()
+	line102: buckets.size()
+	line205: buckets.size()
+	line309: buckets.size()
+	line413: buckets.size()
+	line76: buckets.size()
+	line231: buckets.size()
+	line283: buckets.size()
+	line128: buckets.size()
+	line51: buckets.size()
+	line153: buckets.size()
+	line257: buckets.size()
+	line387: buckets.size()
+	line179: buckets.size()
+	line335: buckets.size()
+	line361: buckets.size()
+
+line152: buckets=terms.getBuckets()
+	line102: buckets.size()
+	line205: buckets.size()
+	line309: buckets.size()
+	line413: buckets.size()
+	line76: buckets.size()
+	line231: buckets.size()
+	line283: buckets.size()
+	line128: buckets.size()
+	line51: buckets.size()
+	line153: buckets.size()
+	line257: buckets.size()
+	line387: buckets.size()
+	line179: buckets.size()
+	line335: buckets.size()
+	line361: buckets.size()
+
+line178: buckets=terms.getBuckets()
+	line102: buckets.size()
+	line205: buckets.size()
+	line309: buckets.size()
+	line413: buckets.size()
+	line76: buckets.size()
+	line231: buckets.size()
+	line283: buckets.size()
+	line128: buckets.size()
+	line51: buckets.size()
+	line153: buckets.size()
+	line257: buckets.size()
+	line387: buckets.size()
+	line179: buckets.size()
+	line335: buckets.size()
+	line361: buckets.size()
+
+line204: buckets=terms.getBuckets()
+	line102: buckets.size()
+	line205: buckets.size()
+	line309: buckets.size()
+	line413: buckets.size()
+	line76: buckets.size()
+	line231: buckets.size()
+	line283: buckets.size()
+	line128: buckets.size()
+	line51: buckets.size()
+	line153: buckets.size()
+	line257: buckets.size()
+	line387: buckets.size()
+	line179: buckets.size()
+	line335: buckets.size()
+	line361: buckets.size()
+
+line230: buckets=terms.getBuckets()
+	line102: buckets.size()
+	line205: buckets.size()
+	line309: buckets.size()
+	line413: buckets.size()
+	line76: buckets.size()
+	line231: buckets.size()
+	line283: buckets.size()
+	line128: buckets.size()
+	line51: buckets.size()
+	line153: buckets.size()
+	line257: buckets.size()
+	line387: buckets.size()
+	line179: buckets.size()
+	line335: buckets.size()
+	line361: buckets.size()
+
+line256: buckets=terms.getBuckets()
+	line102: buckets.size()
+	line205: buckets.size()
+	line309: buckets.size()
+	line413: buckets.size()
+	line76: buckets.size()
+	line231: buckets.size()
+	line283: buckets.size()
+	line128: buckets.size()
+	line51: buckets.size()
+	line153: buckets.size()
+	line257: buckets.size()
+	line387: buckets.size()
+	line179: buckets.size()
+	line335: buckets.size()
+	line361: buckets.size()
+
+line282: buckets=terms.getBuckets()
+	line102: buckets.size()
+	line205: buckets.size()
+	line309: buckets.size()
+	line413: buckets.size()
+	line76: buckets.size()
+	line231: buckets.size()
+	line283: buckets.size()
+	line128: buckets.size()
+	line51: buckets.size()
+	line153: buckets.size()
+	line257: buckets.size()
+	line387: buckets.size()
+	line179: buckets.size()
+	line335: buckets.size()
+	line361: buckets.size()
+
+line308: buckets=terms.getBuckets()
+	line102: buckets.size()
+	line205: buckets.size()
+	line309: buckets.size()
+	line413: buckets.size()
+	line76: buckets.size()
+	line231: buckets.size()
+	line283: buckets.size()
+	line128: buckets.size()
+	line51: buckets.size()
+	line153: buckets.size()
+	line257: buckets.size()
+	line387: buckets.size()
+	line179: buckets.size()
+	line335: buckets.size()
+	line361: buckets.size()
+
+line334: buckets=terms.getBuckets()
+	line102: buckets.size()
+	line205: buckets.size()
+	line309: buckets.size()
+	line413: buckets.size()
+	line76: buckets.size()
+	line231: buckets.size()
+	line283: buckets.size()
+	line128: buckets.size()
+	line51: buckets.size()
+	line153: buckets.size()
+	line257: buckets.size()
+	line387: buckets.size()
+	line179: buckets.size()
+	line335: buckets.size()
+	line361: buckets.size()
+
+line360: buckets=terms.getBuckets()
+	line102: buckets.size()
+	line205: buckets.size()
+	line309: buckets.size()
+	line413: buckets.size()
+	line76: buckets.size()
+	line231: buckets.size()
+	line283: buckets.size()
+	line128: buckets.size()
+	line51: buckets.size()
+	line153: buckets.size()
+	line257: buckets.size()
+	line387: buckets.size()
+	line179: buckets.size()
+	line335: buckets.size()
+	line361: buckets.size()
+
+line386: buckets=terms.getBuckets()
+	line102: buckets.size()
+	line205: buckets.size()
+	line309: buckets.size()
+	line413: buckets.size()
+	line76: buckets.size()
+	line231: buckets.size()
+	line283: buckets.size()
+	line128: buckets.size()
+	line51: buckets.size()
+	line153: buckets.size()
+	line257: buckets.size()
+	line387: buckets.size()
+	line179: buckets.size()
+	line335: buckets.size()
+	line361: buckets.size()
+
+line412: buckets=terms.getBuckets()
+	line102: buckets.size()
+	line205: buckets.size()
+	line309: buckets.size()
+	line413: buckets.size()
+	line76: buckets.size()
+	line231: buckets.size()
+	line283: buckets.size()
+	line128: buckets.size()
+	line51: buckets.size()
+	line153: buckets.size()
+	line257: buckets.size()
+	line387: buckets.size()
+	line179: buckets.size()
+	line335: buckets.size()
+	line361: buckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/benchmark/recovery/ReplicaRecoveryBenchmark.java
+line131: indexRecoveries=recoveryResponse.shardResponses().get(INDEX_NAME)
+	line134: indexRecoveries.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/action/admin/indices/get/GetIndexTests.java
+line148: features=new ArrayList<Feature>(numFeatures)
+	line153: features.size()
+	line188: features.size()
+
+line183: features=new ArrayList<Feature>(numFeatures)
+	line153: features.size()
+	line188: features.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/discovery/local/LocalDiscovery.java
+line301: members=clusterGroup.members()
+	line302: members.size()
+
+line428: members=ConcurrentCollections.newQueue()
+	line302: members.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/support/AggregationPath.java
+line72: tokens=new ArrayList<>(elements.length)
+	line159: tokens.size()
+
+line155: pathElements
+	line170: pathElements.size()
+	line291: pathElements.size()
+	line203: pathElements.size()
+	line297: pathElements.size()
+	line224: pathElements.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/test/hamcrest/ElasticsearchAssertions.java
+line191: idsSet=new HashSet<>(Arrays.asList(ids))
+	line197: idsSet.size()
+	line198: idsSet.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/metrics/PercentilesTests.java
+line80: percentileList=Lists.newArrayList(percentiles)
+	line81: percentileList.size()
+	line97: percentileList.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/bucket/GeoDistanceTests.java
+line115: builders=new ArrayList<>()
+	line123: builders.size()
+
+line429: buckets=new ArrayList<Range.Bucket>(geoDistance.getBuckets())
+	line432: buckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/controller/SearchPhaseController.java
+line354: hits=new ArrayList<>()
+	line424: hits.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/common/settings/SettingsTests.java
+line222: names=settings.names()
+	line223: names.size()
+	line229: names.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/lucene/all/AllEntries.java
+line69: entries=Lists.newArrayList()
+	line87: entries.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/cluster/stats/ClusterStatsNodes.java
+line51: versions
+	line153: versions.size()
+
+line56: plugins
+	line159: plugins.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/search/ClearScrollRequest.java
+line38: scrollIds
+	line84: scrollIds.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/inject/spi/Message.java
+line47: sources
+	line70: sources.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/indices/create/CreateIndexRequest.java
+line71: aliases=Sets.newHashSet()
+	line476: aliases.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/cluster/routing/allocation/NodeVersionAllocationDeciderTests.java
+line195: nodes=new ArrayList<>()
+	line205: nodes.size()
+	line201: nodes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/indices/segments/ShardSegments.java
+line40: segments
+	line109: segments.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/cluster/shards/TransportClusterSearchShardsAction.java
+line73: nodeIds=newHashSet()
+	line90: nodeIds.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/analysis/StemmerOverrideTokenFilterFactory.java
+line64: mapping=Strings.splitSmart(rule,mappingSep,false)
+	line65: mapping.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/bucket/LongTermsTests.java
+line100: builders=new ArrayList<>()
+	line110: builders.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/index/mapper/date/SimpleDateMappingTests.java
+line162: values=new ArrayList<>()
+	line174: values.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/indices/upgrade/get/TransportUpgradeStatusAction.java
+line89: shards=newArrayList()
+	line105: shards.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/query/TermsQueryParser.java
+line88: terms=Lists.newArrayList()
+	line187: terms.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/bucket/BestDocsDeferringCollector.java
+line129: allDocs=new ArrayList<>(shardSize)
+	line139: allDocs.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/index/analysis/NGramTokenizerFactoryTests.java
+line246: versionFields=new ArrayList<>()
+	line252: versionFields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/monitor/jvm/DeadlockAnalyzer.java
+line54: cycles=calculateCycles(threadInfoMap)
+	line62: cycles.size()
+
+line74: cycles=new HashSet<>()
+	line62: cycles.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/bucket/histogram/InternalHistogram.java
+line277: buckets
+	line143: buckets.size()
+	line521: buckets.size()
+
+line491: buckets=new ArrayList<>(size)
+	line143: buckets.size()
+	line521: buckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/lucene/search/function/FiltersFunctionScoreQuery.java
+line193: filterExplanations=new ArrayList<>()
+	line238: filterExplanations.size()
+	line249: filterExplanations.size()
+	line232: filterExplanations.size()
+	line215: filterExplanations.size()
+	line243: filterExplanations.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/percolate/MultiPercolateRequest.java
+line53: requests=Lists.newArrayList()
+	line350: requests.size()
+	line317: requests.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/percolator/ConcurrentPercolatorTests.java
+line303: liveIds=ConcurrentCollections.newConcurrentSet()
+	line369: liveIds.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/script/ScriptModesTests.java
+line51: checkedSettings
+	line96: checkedSettings.size()
+
+line118: randomScriptTypesSet=Sets.newHashSet()
+	line127: randomScriptTypesSet.size()
+
+line151: randomScriptContextsSet=Sets.newHashSet()
+	line160: randomScriptContextsSet.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/snapshots/SharedClusterSnapshotRestoreTests.java
+line1133: snapshotInfos=client().admin().cluster().prepareGetSnapshots("test-repo").setSnapshots("test-snap").get().getSnapshots()
+	line1135: snapshotInfos.size()
+	line1218: snapshotInfos.size()
+
+line1216: snapshotInfos=client().admin().cluster().prepareGetSnapshots("test-repo").setSnapshots("test-snap").get().getSnapshots()
+	line1135: snapshotInfos.size()
+	line1218: snapshotInfos.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/monitor/jvm/JvmStats.java
+line69: memoryPoolMXBeans=ManagementFactory.getMemoryPoolMXBeans()
+	line71: memoryPoolMXBeans.size()
+
+line70: pools=new ArrayList<>()
+	line94: pools.size()
+
+line100: gcMxBeans=ManagementFactory.getGarbageCollectorMXBeans()
+	line102: gcMxBeans.size()
+
+line112: bufferPools=ManagementFactory.getPlatformMXBeans(BufferPoolMXBean.class)
+	line113: bufferPools.size()
+
+line129: bufferPools
+	line314: bufferPools.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/repositories/VerifyNodeRepositoryAction.java
+line71: nodes=newArrayList()
+	line111: nodes.size()
+	line77: nodes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/indices/recovery/RecoveryResponse.java
+line35: phase1FileNames=Lists.newArrayList()
+	line89: phase1FileNames.size()
+
+line36: phase1FileSizes=Lists.newArrayList()
+	line93: phase1FileSizes.size()
+
+line37: phase1ExistingFileNames=Lists.newArrayList()
+	line98: phase1ExistingFileNames.size()
+
+line38: phase1ExistingFileSizes=Lists.newArrayList()
+	line102: phase1ExistingFileSizes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/index/translog/TranslogTests.java
+line649: errors=new CopyOnWriteArrayList<>()
+	line791: errors.size()
+	line793: errors.size()
+	line776: errors.size()
+
+line735: expectedOps=new HashSet<>(writtenOps.keySet())
+	line744: expectedOps.size()
+
+line1042: ops=newArrayList()
+	line1050: ops.size()
+
+line1049: readOperations=Translog.readOperations(StreamInput.wrap(out.bytes()))
+	line1050: readOperations.size()
+
+line1186: operations=new ArrayList<>()
+	line1240: operations.size()
+
+line1233: operations=new ArrayList<>()
+	line1240: operations.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/indices/validate/query/ValidateQueryResponse.java
+line43: queryExplanations
+	line92: queryExplanations.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/fieldvisitor/SingleFieldsVisitor.java
+line71: fieldValues=fieldsValues.get(fieldType.names().indexName())
+	line75: fieldValues.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/mapper/object/RootObjectMapper.java
+line262: mergedTemplates=Lists.newArrayList(Arrays.asList(this.dynamicTemplates))
+	line275: mergedTemplates.size()
+	line265: mergedTemplates.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/monitor/jvm/HotThreads.java
+line190: hotties=new ArrayList<>(threadInfos.values())
+	line191: hotties.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/highlight/HighlighterParseElement.java
+line95: preTagsList=Lists.newArrayList()
+	line99: preTagsList.size()
+	line209: preTagsList.size()
+
+line101: postTagsList=Lists.newArrayList()
+	line215: postTagsList.size()
+	line105: postTagsList.size()
+
+line205: preTagsList=Lists.newArrayList()
+	line99: preTagsList.size()
+	line209: preTagsList.size()
+
+line211: postTagsList=Lists.newArrayList()
+	line215: postTagsList.size()
+	line105: postTagsList.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/warmer/IndexWarmersMetaData.java
+line189: entries=new ArrayList<>()
+	line274: entries.size()
+	line225: entries.size()
+
+line195: types=new ArrayList<>(2)
+	line222: types.size()
+
+line260: entries=Lists.newArrayList()
+	line274: entries.size()
+	line225: entries.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/action/IndicesRequestTests.java
+line129: indices=new ArrayList<>()
+	line791: indices.size()
+	line801: this.indices.size()
+
+line272: indices=new ArrayList<>()
+	line791: indices.size()
+	line801: this.indices.size()
+
+line340: indices=new ArrayList<>()
+	line791: indices.size()
+	line801: this.indices.size()
+
+line359: indices=new ArrayList<>()
+	line791: indices.size()
+	line801: this.indices.size()
+
+line520: indices=new ArrayList<>()
+	line791: indices.size()
+	line801: this.indices.size()
+
+line738: requests=consumeTransportRequests(action)
+	line771: requests.size()
+	line758: requests.size()
+	line740: requests.size()
+
+line756: requests=consumeTransportRequests(action)
+	line771: requests.size()
+	line758: requests.size()
+	line740: requests.size()
+
+line770: requests=consumeTransportRequests(action)
+	line771: requests.size()
+	line758: requests.size()
+	line740: requests.size()
+
+line800: uniqueIndices=new HashSet<>()
+	line802: uniqueIndices.size()
+
+line835: requests=new ArrayList<>()
+	line771: requests.size()
+	line758: requests.size()
+	line740: requests.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/discovery/zen/elect/ElectMasterService.java
+line91: nextPossibleMasters=Lists.newArrayListWithCapacity(numberOfPossibleMasters)
+	line99: nextPossibleMasters.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/InternalAggregation.java
+line118: pipelineAggregators
+	line213: pipelineAggregators.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/cluster/stats/TransportClusterStatsAction.java
+line77: nodeStats=new ArrayList<>(responses.length())
+	line85: nodeStats.size()
+
+line102: shardsStats=new ArrayList<>()
+	line136: shardsStats.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/pipeline/SumBucketTests.java
+line143: termsBuckets=terms.getBuckets()
+	line275: termsBuckets.size()
+	line223: termsBuckets.size()
+	line144: termsBuckets.size()
+	line345: termsBuckets.size()
+
+line183: buckets=terms.getBuckets()
+	line184: buckets.size()
+	line317: buckets.size()
+
+line222: termsBuckets=terms.getBuckets()
+	line275: termsBuckets.size()
+	line223: termsBuckets.size()
+	line144: termsBuckets.size()
+	line345: termsBuckets.size()
+
+line274: termsBuckets=terms.getBuckets()
+	line275: termsBuckets.size()
+	line223: termsBuckets.size()
+	line144: termsBuckets.size()
+	line345: termsBuckets.size()
+
+line316: buckets=terms.getBuckets()
+	line184: buckets.size()
+	line317: buckets.size()
+
+line344: termsBuckets=terms.getBuckets()
+	line275: termsBuckets.size()
+	line223: termsBuckets.size()
+	line144: termsBuckets.size()
+	line345: termsBuckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/cluster/routing/IndexRoutingTable.java
+line185: nodes=Sets.newHashSet()
+	line205: nodes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/suggest/completion/CompletionPostingsFormatTest.java
+line96: providers=Lists.newArrayList(providerV1,currentProvider)
+	line98: providers.size()
+
+line273: refLookup=reference.lookup(prefix,false,res)
+	line275: refLookup.size()
+	line276: refLookup.size()
+
+line274: lookup=buildAnalyzingLookup.lookup(prefix,false,res)
+	line275: lookup.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/index/shard/IndexShardTests.java
+line246: hashCodes=new HashSet<>()
+	line251: hashCodes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/index/analysis/CompoundAnalysisTests.java
+line77: terms=analyze(settings,"decompoundingAnalyzer","donaudampfschiff spargelcremesuppe")
+	line78: terms.size()
+
+line104: terms=new ArrayList<>()
+	line78: terms.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/gateway/TransportNodesListGatewayMetaState.java
+line86: nodesList=Lists.newArrayList()
+	line98: nodesList.size()
+
+line87: failures=Lists.newArrayList()
+	line99: failures.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/pipeline/MaxBucketTests.java
+line112: maxKeys=new ArrayList<>()
+	line185: maxKeys.size()
+	line334: maxKeys.size()
+	line391: maxKeys.size()
+	line226: maxKeys.size()
+	line132: maxKeys.size()
+	line284: maxKeys.size()
+
+line153: termsBuckets=terms.getBuckets()
+	line358: termsBuckets.size()
+	line154: termsBuckets.size()
+	line249: termsBuckets.size()
+	line436: termsBuckets.size()
+
+line166: maxKeys=new ArrayList<>()
+	line185: maxKeys.size()
+	line334: maxKeys.size()
+	line391: maxKeys.size()
+	line226: maxKeys.size()
+	line132: maxKeys.size()
+	line284: maxKeys.size()
+
+line201: buckets=terms.getBuckets()
+	line202: buckets.size()
+	line407: buckets.size()
+
+line204: maxKeys=new ArrayList<>()
+	line185: maxKeys.size()
+	line334: maxKeys.size()
+	line391: maxKeys.size()
+	line226: maxKeys.size()
+	line132: maxKeys.size()
+	line284: maxKeys.size()
+
+line248: termsBuckets=terms.getBuckets()
+	line358: termsBuckets.size()
+	line154: termsBuckets.size()
+	line249: termsBuckets.size()
+	line436: termsBuckets.size()
+
+line261: maxKeys=new ArrayList<>()
+	line185: maxKeys.size()
+	line334: maxKeys.size()
+	line391: maxKeys.size()
+	line226: maxKeys.size()
+	line132: maxKeys.size()
+	line284: maxKeys.size()
+
+line311: maxKeys=new ArrayList<>()
+	line185: maxKeys.size()
+	line334: maxKeys.size()
+	line391: maxKeys.size()
+	line226: maxKeys.size()
+	line132: maxKeys.size()
+	line284: maxKeys.size()
+
+line357: termsBuckets=terms.getBuckets()
+	line358: termsBuckets.size()
+	line154: termsBuckets.size()
+	line249: termsBuckets.size()
+	line436: termsBuckets.size()
+
+line370: maxKeys=new ArrayList<>()
+	line185: maxKeys.size()
+	line334: maxKeys.size()
+	line391: maxKeys.size()
+	line226: maxKeys.size()
+	line132: maxKeys.size()
+	line284: maxKeys.size()
+
+line406: buckets=terms.getBuckets()
+	line202: buckets.size()
+	line407: buckets.size()
+
+line435: termsBuckets=terms.getBuckets()
+	line358: termsBuckets.size()
+	line154: termsBuckets.size()
+	line249: termsBuckets.size()
+	line436: termsBuckets.size()
+
+line438: maxTermsKeys=new ArrayList<>()
+	line483: maxTermsKeys.size()
+
+line450: maxHistoKeys=new ArrayList<>()
+	line469: maxHistoKeys.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/indices/stats/TransportIndicesStatsAction.java
+line91: shards=Lists.newArrayList()
+	line107: shards.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/settings/loader/XContentSettingsLoader.java
+line59: path=newArrayList()
+	line94: path.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/bucket/range/RangeAggregator.java
+line259: ranges
+	line287: ranges.size()
+
+line298: ranges
+	line287: ranges.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/get/MultiGetRequest.java
+line252: items=new ArrayList<>()
+	line537: items.size()
+	line286: items.size()
+
+line385: fields=null
+	line471: fields.size()
+
+line440: includes=null
+	line464: includes.size()
+
+line440: excludes=null
+	line465: excludes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/bucket/SignificantTermsSignificanceScoreTests.java
+line446: classA=((SignificantTerms)classBuckets.next().getAggregations().get("mySignificantTerms")).getBuckets()
+	line448: classA.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/rest/HeadersAndContextCopyClientTests.java
+line65: headers=new HashSet<>()
+	line87: headers.size()
+	line90: headers.size()
+
+line69: newHeaders=new HashSet<>()
+	line79: newHeaders.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/indices/flush/SyncedFlushSingleNodeTest.java
+line50: activeShards=shardRoutingTable.activeShards()
+	line51: activeShards.size()
+	line170: activeShards.size()
+	line203: activeShards.size()
+
+line169: activeShards=shardRoutingTable.activeShards()
+	line51: activeShards.size()
+	line170: activeShards.size()
+	line203: activeShards.size()
+
+line202: activeShards=shardRoutingTable.activeShards()
+	line51: activeShards.size()
+	line170: activeShards.size()
+	line203: activeShards.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/repositories/RepositoriesService.java
+line122: repositoriesMetaData=new ArrayList<>(repositories.repositories().size() + 1)
+	line138: repositoriesMetaData.size()
+	line189: repositoriesMetaData.size()
+
+line178: repositoriesMetaData=new ArrayList<>(repositories.repositories().size())
+	line138: repositoriesMetaData.size()
+	line189: repositoriesMetaData.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/plugins/lang-python/src/test/java/org/elasticsearch/script/python/PythonScriptSearchTests.java
+line148: sObj2Arr2=(List)sObj2.get("arr2")
+	line154: sObj2Arr2.size()
+	line149: sObj2Arr2.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/indices/flush/FlushTest.java
+line219: shardsResult=SyncedFlushUtil.attemptSyncedFlush(internalCluster(),"test").getShardsResultPerIndex().get("test")
+	line222: shardsResult.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/metrics/GeoBoundsTests.java
+line406: buckets=terms.getBuckets()
+	line407: buckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/geo/builders/MultiPolygonBuilder.java
+line83: shapes=new ArrayList<>(this.polygons.size())
+	line96: shapes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/percolate/TransportShardMultiPercolateAction.java
+line115: items
+	line173: items.size()
+	line91: request.items.size()
+
+line129: indices=new ArrayList<>()
+	line133: indices.size()
+
+line208: items
+	line217: items.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/AggregatorFactories.java
+line136: factories=new ArrayList<>()
+	line157: factories.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/settings/SettingsFilter.java
+line92: simpleMatchPatternList=newArrayList()
+	line101: simpleMatchPatternList.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/stresstest/search1/ParentChildStressTest.java
+line117: failures
+	line124: failures.size()
+
+line175: items=new ArrayList<>()
+	line185: items.size()
+	line177: items.size()
+	line181: items.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/action/termvectors/GetTermVectorsTests.java
+line999: validFields=new HashSet<>()
+	line1016: validFields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/bucket/ChildrenTests.java
+line390: articleIds=new HashSet<>()
+	line142: entry1.getValue().articleIds.size()
+
+line391: commentIds=new HashSet<>()
+	line146: entry1.getValue().commentIds.size()
+	line147: entry1.getValue().commentIds.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/cluster/metadata/RepositoriesMetaData.java
+line137: repository=new ArrayList<>()
+	line174: repository.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/bucket/MinDocCountTests.java
+line69: stringTerms=new HashSet<>()
+	line95: stringTerms.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/test/test/VersionUtilsTests.java
+line30: allVersions=VersionUtils.allVersions()
+	line31: allVersions.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/io/stream/StreamOutput.java
+line344: list=(List)value
+	line345: list.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/plugins/lang-javascript/src/main/java/org/elasticsearch/script/javascript/support/NativeList.java
+line37: list
+	line101: list.size()
+	line71: list.size()
+	line130: list.size()
+	line109: list.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/threadpool/ThreadPoolStats.java
+line138: stats
+	line172: stats.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/plugins/analysis-phonetic/src/main/java/org/elasticsearch/index/analysis/phonetic/KoelnerPhonetik.java
+line144: parts=partition(str)
+	line173: parts.size()
+	line145: parts.size()
+
+line155: parts=new ArrayList()
+	line173: parts.size()
+	line145: parts.size()
+
+line158: tmpParts=new ArrayList()
+	line163: tmpParts.size()
+	line161: tmpParts.size()
+	line160: tmpParts.size()
+
+line172: variations=new ArrayList()
+	line200: variations.size()
+	line208: variations.size()
+
+line184: variations=new ArrayList()
+	line200: variations.size()
+	line208: variations.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/cluster/routing/allocation/command/AllocationCommands.java
+line76: commands=newArrayList()
+	line147: commands.commands.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/rest/action/admin/cluster/node/stats/RestNodesStatsAction.java
+line60: metrics=Strings.splitStringByCommaToSet(request.param("metric","_all"))
+	line64: metrics.size()
+
+line82: indexMetrics=Strings.splitStringByCommaToSet(request.param("indexMetric","_all"))
+	line83: indexMetrics.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/snapshots/blobstore/BlobStoreIndexShardRepository.java
+line483: snapshots=Lists.newArrayList()
+	line401: snapshots.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/indices/analysis/PreBuiltAnalyzerIntegrationTests.java
+line57: indexNames=Lists.newArrayList()
+	line93: indexNames.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/cluster/snapshots/status/TransportNodesSnapshotsStatus.java
+line80: nodesList=Lists.newArrayList()
+	line92: nodesList.size()
+
+line81: failures=Lists.newArrayList()
+	line93: failures.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/discovery/zen/ping/unicast/UnicastZenPing.java
+line122: configuredTargetNodes=Lists.newArrayList()
+	line134: configuredTargetNodes.size()
+
+line473: pingResponses=newArrayList(temporalResponses)
+	line479: pingResponses.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/pipeline/movavg/MovAvgPipelineAggregator.java
+line108: newBuckets=new ArrayList<>()
+	line164: newBuckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/discovery/DiscoveryWithServiceDisruptionsTests.java
+line110: nodes=internalCluster().startNodesAsync(numberOfNodes).get()
+	line1067: nodes.size()
+	line435: nodes.size()
+	line436: nodes.size()
+
+line127: nodes=internalCluster().startNodesAsync(numberOfNodes).get()
+	line1067: nodes.size()
+	line435: nodes.size()
+	line436: nodes.size()
+
+line203: nodes=startCluster(3)
+	line1067: nodes.size()
+	line435: nodes.size()
+	line436: nodes.size()
+
+line350: nodes=startCluster(3)
+	line1067: nodes.size()
+	line435: nodes.size()
+	line436: nodes.size()
+
+line420: nodes=startCluster(3)
+	line1067: nodes.size()
+	line435: nodes.size()
+	line436: nodes.size()
+
+line435: indexers=new ArrayList<>(nodes.size())
+	line509: indexers.size()
+	line491: indexers.size()
+	line447: indexers.size()
+	line503: indexers.size()
+
+line439: exceptedExceptions=Collections.synchronizedList(new ArrayList<Exception>())
+	line532: exceptedExceptions.size()
+
+line555: nodes=startUnicastCluster(3,null,-1)
+	line1067: nodes.size()
+	line435: nodes.size()
+	line436: nodes.size()
+
+line600: nodes=startUnicastCluster(3,null,2)
+	line1067: nodes.size()
+	line435: nodes.size()
+	line436: nodes.size()
+
+line694: recordedMasterTransition=entry.getValue()
+	line695: recordedMasterTransition.size()
+
+line711: nodes=startCluster(3)
+	line1067: nodes.size()
+	line435: nodes.size()
+	line436: nodes.size()
+
+line766: nodes=startUnicastCluster(4,new int[]{0},-1)
+	line1067: nodes.size()
+	line435: nodes.size()
+	line436: nodes.size()
+
+line803: nodes=startUnicastCluster(4,new int[]{0},-1)
+	line1067: nodes.size()
+	line435: nodes.size()
+	line436: nodes.size()
+
+line840: nodes=startCluster(2,1)
+	line1067: nodes.size()
+	line435: nodes.size()
+	line436: nodes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/cluster/node/info/TransportNodesInfoAction.java
+line58: nodesInfos=new ArrayList<>()
+	line65: nodesInfos.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/common/xcontent/support/XContentMapValuesTests.java
+line136: extListValue=(List)extValue
+	line137: extListValue.size()
+	line154: extListValue.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/support/PathTests.java
+line85: tokens=new ArrayList<>()
+	line102: tokens.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/percolator/PercolatorTests.java
+line1228: usedValues=new ArrayList<>(controlMap.keySet())
+	line1272: usedValues.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/index/store/CorruptedFileTest.java
+line303: dataNodeStats=new ArrayList<>()
+	line371: dataNodeStats.size()
+	line310: dataNodeStats.size()
+
+line364: dataNodeStats=new ArrayList<>()
+	line371: dataNodeStats.size()
+	line310: dataNodeStats.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/query/SpanNearQueryParser.java
+line60: clauses=newArrayList()
+	line104: clauses.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/sort/SortParseElement.java
+line83: sortFields=Lists.newArrayListWithCapacity(2)
+	line115: sortFields.size()
+	line104: sortFields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/rest/action/admin/indices/stats/RestIndicesStatsAction.java
+line60: metrics=Strings.splitStringByCommaToSet(request.param("metric","_all"))
+	line62: metrics.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/suggest/CompletionSuggestSearchTests.java
+line866: options=suggestion.getEntries().get(0).getOptions()
+	line868: options.size()
+	line869: options.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/pipeline/MinBucketTests.java
+line109: minKeys=new ArrayList<>()
+	line223: minKeys.size()
+	line339: minKeys.size()
+	line129: minKeys.size()
+	line281: minKeys.size()
+	line182: minKeys.size()
+
+line150: termsBuckets=terms.getBuckets()
+	line306: termsBuckets.size()
+	line246: termsBuckets.size()
+	line384: termsBuckets.size()
+	line151: termsBuckets.size()
+
+line163: minKeys=new ArrayList<>()
+	line223: minKeys.size()
+	line339: minKeys.size()
+	line129: minKeys.size()
+	line281: minKeys.size()
+	line182: minKeys.size()
+
+line198: buckets=terms.getBuckets()
+	line355: buckets.size()
+	line199: buckets.size()
+
+line201: minKeys=new ArrayList<>()
+	line223: minKeys.size()
+	line339: minKeys.size()
+	line129: minKeys.size()
+	line281: minKeys.size()
+	line182: minKeys.size()
+
+line245: termsBuckets=terms.getBuckets()
+	line306: termsBuckets.size()
+	line246: termsBuckets.size()
+	line384: termsBuckets.size()
+	line151: termsBuckets.size()
+
+line258: minKeys=new ArrayList<>()
+	line223: minKeys.size()
+	line339: minKeys.size()
+	line129: minKeys.size()
+	line281: minKeys.size()
+	line182: minKeys.size()
+
+line305: termsBuckets=terms.getBuckets()
+	line306: termsBuckets.size()
+	line246: termsBuckets.size()
+	line384: termsBuckets.size()
+	line151: termsBuckets.size()
+
+line318: minKeys=new ArrayList<>()
+	line223: minKeys.size()
+	line339: minKeys.size()
+	line129: minKeys.size()
+	line281: minKeys.size()
+	line182: minKeys.size()
+
+line354: buckets=terms.getBuckets()
+	line355: buckets.size()
+	line199: buckets.size()
+
+line383: termsBuckets=terms.getBuckets()
+	line306: termsBuckets.size()
+	line246: termsBuckets.size()
+	line384: termsBuckets.size()
+	line151: termsBuckets.size()
+
+line386: minTermsKeys=new ArrayList<>()
+	line431: minTermsKeys.size()
+
+line398: minHistoKeys=new ArrayList<>()
+	line417: minHistoKeys.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/cluster/routing/RoutingTableValidation.java
+line46: failures
+	line156: failures.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/termvectors/TermVectorsWriter.java
+line40: fields=new ArrayList<>()
+	line145: fields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/snapshots/SnapshotsService.java
+line139: entries=currentSnapshots(snapshotId.getRepository(),new String[]{snapshotId.getSnapshot()})
+	line1059: entries.size()
+
+line154: entries=currentSnapshots(repositoryName,null)
+	line1059: entries.size()
+
+line176: entries=currentSnapshots(repositoryName,null)
+	line1059: entries.size()
+
+line1001: drainedRequests=new ArrayList<>()
+	line1012: drainedRequests.size()
+
+line1022: entries=newArrayList()
+	line1059: entries.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/basic/TransportTwoNodesSearchTests.java
+line271: expectedIds=Sets.newHashSet()
+	line342: expectedIds.size()
+	line300: expectedIds.size()
+
+line311: expectedIds=Sets.newHashSet()
+	line342: expectedIds.size()
+	line300: expectedIds.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/cluster/snapshots/status/TransportSnapshotsStatusAction.java
+line85: currentSnapshots=snapshotsService.currentSnapshots(request.repository(),request.snapshots())
+	line103: currentSnapshots.size()
+	line104: currentSnapshots.size()
+
+line92: nodesIds=newHashSet()
+	line108: nodesIds.size()
+
+line114: currentSnapshots=snapshotsService.currentSnapshots(request.repository(),request.snapshots())
+	line103: currentSnapshots.size()
+	line104: currentSnapshots.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/plugins/cloud-gce/src/test/java/org/elasticsearch/discovery/gce/mock/GceComputeServiceAbstractMock.java
+line47: zoneList
+	line72: zoneList.size()
+
+line65: instances=null
+	line101: instances.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/analysis/CustomAnalyzerProvider.java
+line60: charFilters=newArrayList()
+	line84: charFilters.size()
+
+line70: tokenFilters=newArrayList()
+	line85: tokenFilters.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/bucket/TermsDocCountErrorTests.java
+line111: testBuckets=testTerms.getBuckets()
+	line184: testBuckets.size()
+	line113: testBuckets.size()
+	line112: testBuckets.size()
+	line146: testBuckets.size()
+	line147: testBuckets.size()
+	line183: testBuckets.size()
+	line164: testBuckets.size()
+
+line145: testBuckets=testTerms.getBuckets()
+	line184: testBuckets.size()
+	line113: testBuckets.size()
+	line112: testBuckets.size()
+	line146: testBuckets.size()
+	line147: testBuckets.size()
+	line183: testBuckets.size()
+	line164: testBuckets.size()
+
+line163: testBuckets=testTerms.getBuckets()
+	line184: testBuckets.size()
+	line113: testBuckets.size()
+	line112: testBuckets.size()
+	line146: testBuckets.size()
+	line147: testBuckets.size()
+	line183: testBuckets.size()
+	line164: testBuckets.size()
+
+line182: testBuckets=testTerms.getBuckets()
+	line184: testBuckets.size()
+	line113: testBuckets.size()
+	line112: testBuckets.size()
+	line146: testBuckets.size()
+	line147: testBuckets.size()
+	line183: testBuckets.size()
+	line164: testBuckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/xcontent/support/XContentMapValues.java
+line125: valueList=(List)currentValue
+	line126: valueList.size()
+
+line212: list=(List<Object>)entry.getValue()
+	line213: list.size()
+
+line399: list=(List)node
+	line400: list.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/indices/breaker/HierarchyCircuitBreakerService.java
+line189: allStats=newArrayList()
+	line199: allStats.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/apache/lucene/search/suggest/analyzing/XFuzzySuggester.java
+line224: ref=Operations.getFiniteStrings(automaton,-1)
+	line225: ref.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/get/ShardGetService.java
+line237: values=searchLookup.source().extractRawValues(field)
+	line239: values.size()
+	line366: values.size()
+
+line364: values=searchLookup.source().extractRawValues(field)
+	line239: values.size()
+	line366: values.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/cluster/routing/allocation/decider/Decision.java
+line229: decisions=Lists.newArrayList()
+	line244: decisions.size()
+	line61: ((Multi)decision).decisions.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/cluster/routing/PlainShardsIterator.java
+line29: shards
+	line48: shards.size()
+	line53: shards.size()
+	line62: shards.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/query/IdsQueryBuilder.java
+line35: types
+	line99: types.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/support/MissingValuesTests.java
+line91: valueSet=new HashSet<>()
+	line92: valueSet.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/termvectors/MultiTermVectorsRequest.java
+line38: requests=new ArrayList<>()
+	line152: requests.size()
+	line58: requests.size()
+	line165: requests.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/cluster/action/shard/ShardStateAction.java
+line140: shardRoutingEntries=new ArrayList<>()
+	line220: shardRoutingEntries.size()
+	line222: shardRoutingEntries.size()
+	line150: shardRoutingEntries.size()
+	line151: shardRoutingEntries.size()
+
+line209: shardRoutingEntries=new ArrayList<>()
+	line220: shardRoutingEntries.size()
+	line222: shardRoutingEntries.size()
+	line150: shardRoutingEntries.size()
+	line151: shardRoutingEntries.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/percolate/PercolateShardResponse.java
+line53: hls
+	line183: hls.size()
+
+line58: pipelineAggregators
+	line196: pipelineAggregators.size()
+
+line159: pipelineAggregators=new ArrayList<>(pipelineAggregatorsSize)
+	line196: pipelineAggregators.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/codec/postingsformat/BloomFilterPostingsFormat.java
+line403: nonSaturatedBlooms=new ArrayList<>()
+	line420: nonSaturatedBlooms.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/cluster/routing/allocation/AllocationService.java
+line234: shards=new ArrayList<>()
+	line249: shards.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/pipeline/AvgBucketTests.java
+line146: termsBuckets=terms.getBuckets()
+	line232: termsBuckets.size()
+	line147: termsBuckets.size()
+	line360: termsBuckets.size()
+	line287: termsBuckets.size()
+
+line189: buckets=terms.getBuckets()
+	line190: buckets.size()
+	line332: buckets.size()
+
+line231: termsBuckets=terms.getBuckets()
+	line232: termsBuckets.size()
+	line147: termsBuckets.size()
+	line360: termsBuckets.size()
+	line287: termsBuckets.size()
+
+line286: termsBuckets=terms.getBuckets()
+	line232: termsBuckets.size()
+	line147: termsBuckets.size()
+	line360: termsBuckets.size()
+	line287: termsBuckets.size()
+
+line331: buckets=terms.getBuckets()
+	line190: buckets.size()
+	line332: buckets.size()
+
+line359: termsBuckets=terms.getBuckets()
+	line232: termsBuckets.size()
+	line147: termsBuckets.size()
+	line360: termsBuckets.size()
+	line287: termsBuckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/cluster/routing/allocation/CatAllocationTestBase.java
+line141: initializing=routingTable.shardsWithState(INITIALIZING)
+	line146: initializing.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/plugins/lang-javascript/src/main/java/org/elasticsearch/script/javascript/support/ScriptValueConverter.java
+line150: collection=(Collection<Object>)value
+	line151: collection.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/transport/netty/NettyTransport.java
+line565: addresses=Lists.newArrayList()
+	line582: addresses.size()
+	line572: addresses.size()
+
+line576: addresses=Lists.newArrayList()
+	line582: addresses.size()
+	line572: addresses.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/fielddata/plain/ParentChildIntersectTermsEnum.java
+line42: states
+	line175: states.size()
+	line112: states.size()
+	line59: states.size()
+	line165: states.size()
+
+line48: fieldEnums=new ArrayList<>()
+	line55: fieldEnums.size()
+
+line220: states
+	line254: states.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/bucket/DateRangeTests.java
+line82: docs=new ArrayList<>()
+	line92: docs.size()
+
+line128: buckets=new ArrayList<Range.Bucket>(range.getBuckets())
+	line1059: buckets.size()
+
+line1056: buckets=new ArrayList<Range.Bucket>(dateRange.getBuckets())
+	line1059: buckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/gateway/MetaDataStateFormat.java
+line249: files=new ArrayList<>()
+	line310: files.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/cluster/routing/GroupShardsIterator.java
+line34: iterators
+	line78: iterators.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/query/SearchQueryTests.java
+line2503: oneIds=new HashSet<>()
+	line2511: oneIds.size()
+
+line2507: otherIds=new HashSet<>()
+	line2511: otherIds.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/cluster/ClusterStateDiffPublishingTests.java
+line516: errors=publishStateDiff(nodeA.action,unserializableClusterState,previousClusterState).awaitErrors(1,TimeUnit.SECONDS)
+	line517: errors.size()
+
+line552: errors=new CopyOnWriteArrayList<>()
+	line517: errors.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/cluster/ClusterServiceTests.java
+line523: pendingClusterTasks=clusterService.pendingTasks()
+	line524: pendingClusterTasks.size()
+	line591: pendingClusterTasks.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/http/netty/NettyPipeliningDisabledIntegrationTest.java
+line55: requests=Arrays.asList("/","/_nodes/stats","/","/_cluster/state","/","/_nodes","/")
+	line62: requests.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/analysis/CharMatcher.java
+line100: matchers
+	line109: matchers.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/suggest/phrase/DirectCandidateGenerator.java
+line188: set=new HashSet<>(candidates)
+	line192: set.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/morelikethis/ItemSerializationTests.java
+line106: items=request.getItems()
+	line108: items.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/update/UpdateTests.java
+line581: failures=new CopyOnWriteArrayList<>()
+	line812: failures.size()
+	line619: failures.size()
+
+line650: failures=new CopyOnWriteArrayList<>()
+	line812: failures.size()
+	line619: failures.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/common/TableTests.java
+line98: headers=table.getHeaders()
+	line99: headers.size()
+
+line110: rows=table.getRows()
+	line111: rows.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/cluster/metadata/MetaDataUpdateSettingsService.java
+line145: indices=nrReplicasChanged.get(fNumberOfReplicas)
+	line148: indices.size()
+
+line224: openIndices=Sets.newHashSet()
+	line300: openIndices.size()
+
+line225: closeIndices=Sets.newHashSet()
+	line305: closeIndices.size()
+	line234: closeIndices.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/pipeline/derivative/DerivativeParser.java
+line77: paths=new ArrayList<>()
+	line82: paths.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/query/HasParentQueryParser.java
+line162: parentTypes=new HashSet<>(5)
+	line181: parentTypes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/bucket/filters/FiltersAggregator.java
+line126: filters
+	line69: filters.size()
+	line70: filters.size()
+	line71: filters.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/fields/SearchFieldsTests.java
+line304: sObj2Arr2=(List)sObj2.get("arr2")
+	line305: sObj2Arr2.size()
+	line310: sObj2Arr2.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/bucket/ReverseNestedTests.java
+line177: tagsBuckets=new ArrayList<>(tags.getBuckets())
+	line237: tagsBuckets.size()
+	line403: tagsBuckets.size()
+	line199: tagsBuckets.size()
+	line437: tagsBuckets.size()
+	line284: tagsBuckets.size()
+	line318: tagsBuckets.size()
+	line252: tagsBuckets.size()
+	line218: tagsBuckets.size()
+	line178: tagsBuckets.size()
+	line267: tagsBuckets.size()
+	line301: tagsBuckets.size()
+	line390: tagsBuckets.size()
+	line420: tagsBuckets.size()
+	line449: tagsBuckets.size()
+
+line389: tagsBuckets=new ArrayList<>(tags.getBuckets())
+	line237: tagsBuckets.size()
+	line403: tagsBuckets.size()
+	line199: tagsBuckets.size()
+	line437: tagsBuckets.size()
+	line284: tagsBuckets.size()
+	line318: tagsBuckets.size()
+	line252: tagsBuckets.size()
+	line218: tagsBuckets.size()
+	line178: tagsBuckets.size()
+	line267: tagsBuckets.size()
+	line301: tagsBuckets.size()
+	line390: tagsBuckets.size()
+	line420: tagsBuckets.size()
+	line449: tagsBuckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/indices/store/IndicesStoreTests.java
+line54: set=new HashSet<>()
+	line57: set.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/inject/internal/ProviderMethodsModule.java
+line95: parameterTypes=typeLiteral.getParameterTypes(method)
+	line97: parameterTypes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/index/mapper/copyto/CopyToMapperTests.java
+line97: copyToList=(List<String>)copyTestMap.get("copy_to")
+	line98: copyToList.size()
+
+line223: fields=docMapperBefore.mappers().getMapper("copy_test").copyTo().copyToFields()
+	line240: fields.size()
+	line225: fields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/action/bulk/BulkProcessorTests.java
+line334: bulkItems=new CopyOnWriteArrayList<>()
+	line274: listener.bulkItems.size()
+	line140: listener.bulkItems.size()
+	line189: listener.bulkItems.size()
+	line132: listener.bulkItems.size()
+	line195: listener.bulkItems.size()
+
+line335: bulkFailures=new CopyOnWriteArrayList<>()
+	line273: listener.bulkFailures.size()
+	line139: listener.bulkFailures.size()
+	line71: listener.bulkFailures.size()
+	line98: listener.bulkFailures.size()
+	line188: listener.bulkFailures.size()
+	line131: listener.bulkFailures.size()
+	line225: listener.bulkFailures.size()
+	line194: listener.bulkFailures.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/plugins/cloud-gce/src/main/java/org/elasticsearch/cloud/gce/GceComputeServiceImpl.java
+line85: instanceList=Lists.newArrayList(Iterables.concat(instanceListByZone))
+	line87: instanceList.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/indices/warmer/delete/TransportDeleteWarmerAction.java
+line101: entries=Lists.newArrayList()
+	line118: entries.size()
+	line117: entries.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/basic/SearchWhileRelocatingTests.java
+line76: indexBuilders=new ArrayList<>()
+	line84: indexBuilders.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/cluster/health/ClusterIndexHealth.java
+line68: validationFailures
+	line227: validationFailures.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/snapshots/RestoreService.java
+line351: simpleMatchPatterns=newArrayList()
+	line364: simpleMatchPatterns.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/inject/internal/AbstractBindingBuilder.java
+line49: elements
+	line57: elements.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/index/analysis/PreBuiltAnalyzerTests.java
+line76: list=new ArrayList<>()
+	line85: list.size()
+	line116: list.size()
+	line81: list.size()
+	line120: list.size()
+
+line111: list=new ArrayList<>()
+	line85: list.size()
+	line116: list.size()
+	line81: list.size()
+	line120: list.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/query/IndicesQueryParser.java
+line90: indices=new ArrayList<>()
+	line98: indices.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/recovery/TruncatedRecoveryTests.java
+line75: dataNodeStats=new ArrayList<>()
+	line81: dataNodeStats.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/mapper/DocumentMapper.java
+line87: sourceTransforms=new ArrayList<>(1)
+	line190: sourceTransforms.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/client/transport/TransportClientNodesService.java
+line80: nodes=ImmutableList.of()
+	line237: nodes.size()
+	line200: nodes.size()
+	line233: nodes.size()
+
+line196: nodes=this.nodes
+	line237: nodes.size()
+	line200: nodes.size()
+	line233: nodes.size()
+
+line212: nodes
+	line237: nodes.size()
+	line200: nodes.size()
+	line233: nodes.size()
+
+line389: nodesToPing=Sets.newHashSet()
+	line397: nodesToPing.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/snapshots/Snapshot.java
+line56: shardFailures
+	line86: shardFailures.size()
+
+line279: shardFailures=NO_FAILURES
+	line86: shardFailures.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/indices/template/SimpleIndexTemplateTests.java
+line387: types=Sets.newHashSet()
+	line391: types.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/test/VersionUtils.java
+line37: SORTED_VERSIONS
+	line82: SORTED_VERSIONS.size()
+	line91: SORTED_VERSIONS.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/common/lucene/search/morelikethis/XMoreLikeThisTests.java
+line83: clauses=query.clauses()
+	line84: clauses.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/scan/ScanContextTests.java
+line93: actual=new ArrayList<>()
+	line104: actual.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/test/rest/Stash.java
+line101: list=(List)obj
+	line102: list.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/bucket/geogrid/InternalGeoHashGrid.java
+line168: buckets
+	line252: buckets.size()
+	line209: grid.buckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/termvectors/MultiTermVectorsShardRequest.java
+line37: requests
+	line76: requests.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/discovery/BlockingClusterStatePublishResponseHandlerTests.java
+line84: completedNodes=new HashSet<>()
+	line98: completedNodes.size()
+
+line96: pendingNodes=new HashSet<>(Arrays.asList(handler.pendingNodes()))
+	line98: pendingNodes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/indices/cluster/IndicesClusterStateService.java
+line351: typesToRefresh=Lists.newArrayList()
+	line384: typesToRefresh.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/indices/segments/TransportIndicesSegmentsAction.java
+line89: shards=newArrayList()
+	line105: shards.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/pipeline/bucketmetrics/BucketMetricsParser.java
+line75: paths=new ArrayList<>()
+	line80: paths.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/cluster/health/ClusterHealthResponse.java
+line65: validationFailures
+	line268: validationFailures.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/index/query/SimpleIndexQueryParserTests.java
+line200: disjuncts=disMaxQuery.getDisjuncts()
+	line358: disjuncts.size()
+	line337: disjuncts.size()
+	line378: disjuncts.size()
+
+line212: disjuncts=disMaxQuery.getDisjuncts()
+	line358: disjuncts.size()
+	line337: disjuncts.size()
+	line378: disjuncts.size()
+
+line223: disjuncts=disMaxQuery.getDisjuncts()
+	line358: disjuncts.size()
+	line337: disjuncts.size()
+	line378: disjuncts.size()
+
+line237: disjuncts=disMaxQuery.getDisjuncts()
+	line358: disjuncts.size()
+	line337: disjuncts.size()
+	line378: disjuncts.size()
+
+line336: disjuncts=disjunctionMaxQuery.getDisjuncts()
+	line358: disjuncts.size()
+	line337: disjuncts.size()
+	line378: disjuncts.size()
+
+line357: disjuncts=disjunctionMaxQuery.getDisjuncts()
+	line358: disjuncts.size()
+	line337: disjuncts.size()
+	line378: disjuncts.size()
+
+line377: disjuncts=disjunctionMaxQuery.getDisjuncts()
+	line358: disjuncts.size()
+	line337: disjuncts.size()
+	line378: disjuncts.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/lucene/search/XMoreLikeThis.java
+line609: fields=MultiFields.getIndexedFields(ir)
+	line610: fields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/rest/action/support/RestTable.java
+line73: headers=buildDisplayHeaders(table,request)
+	line79: headers.size()
+	line88: headers.size()
+	line210: headers.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/scan/ScanContext.java
+line63: docs
+	line80: docs.size()
+	line107: docs.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/script/expression/ExpressionScriptTests.java
+line542: buckets=histogram.getBuckets()
+	line544: buckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/cluster/routing/RoutingNodes.java
+line295: shards=assignedShards(shardRouting.shardId())
+	line296: shards.size()
+
+line308: shards=newArrayList()
+	line296: shards.size()
+
+line321: shards=newArrayList()
+	line296: shards.size()
+
+line336: shards=newArrayList()
+	line296: shards.size()
+
+line547: unassigned
+	line582: unassigned.size()
+	line643: unassigned.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/pipeline/moving/avg/MovAvgTests.java
+line80: mockHisto
+	line534: mockHisto.size()
+	line430: mockHisto.size()
+	line586: mockHisto.size()
+	line640: mockHisto.size()
+	line482: mockHisto.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/indices/recovery/RecoveryFilesInfoRequest.java
+line39: phase1FileNames
+	line105: phase1FileNames.size()
+
+line40: phase1FileSizes
+	line110: phase1FileSizes.size()
+
+line41: phase1ExistingFileNames
+	line115: phase1ExistingFileNames.size()
+
+line42: phase1ExistingFileSizes
+	line120: phase1ExistingFileSizes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/bucket/range/InternalRange.java
+line255: ranges
+	line311: this.ranges.size()
+	line335: ranges.size()
+	line298: ranges.size()
+
+line310: ranges=new ArrayList<>()
+	line311: this.ranges.size()
+	line335: ranges.size()
+	line298: ranges.size()
+
+line322: ranges=Lists.newArrayListWithCapacity(size)
+	line311: this.ranges.size()
+	line335: ranges.size()
+	line298: ranges.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/discovery/zen/ElectMasterServiceTest.java
+line59: nodes=generateRandomNodes()
+	line79: nodes.size()
+	line61: nodes.size()
+
+line60: sortedNodes=electMasterService().sortByMasterLikelihood(nodes)
+	line63: sortedNodes.size()
+	line61: sortedNodes.size()
+
+line77: nodes=generateRandomNodes()
+	line79: nodes.size()
+	line61: nodes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/inject/internal/Errors.java
+line71: errors
+	line534: root.errors.size()
+
+line465: dependencies=errorMessage.getSources()
+	line466: dependencies.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/mapper/internal/IdFieldMapper.java
+line189: queryTypes=context.queryTypes()
+	line207: queryTypes.size()
+
+line206: queryTypes=context.queryTypes()
+	line207: queryTypes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/bucket/RangeTests.java
+line1096: buckets=new ArrayList<Range.Bucket>(range.getBuckets())
+	line1099: buckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/test/XContentTestUtils.java
+line70: secondList=Lists.newArrayList((List<Object>)second)
+	line72: secondList.size()
+
+line71: firstList=(List<Object>)first
+	line72: firstList.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/settings/loader/SettingsLoader.java
+line45: path=newArrayList()
+	line55: path.size()
+	line76: path.size()
+	line59: path.size()
+	line72: path.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/cluster/metadata/MetaDataCreateIndexService.java
+line231: templates=findTemplates(request,currentState,indexTemplateFilter)
+	line298: templates.size()
+
+line481: templates=Lists.newArrayList()
+	line298: templates.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/aggregations/CombiTests.java
+line104: buckets=terms.getBuckets()
+	line105: buckets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/deletionpolicy/SnapshotDeletionPolicy.java
+line48: commits
+	line115: commits.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/InternalAggregations.java
+line60: aggregations=ImmutableList.of()
+	line229: aggregations.size()
+
+line169: aggregations=entry.getValue()
+	line229: aggregations.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/cache/bitset/BitsetFilterCache.java
+line250: warmUp=new HashSet<>()
+	line271: warmUp.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/plugins/cloud-gce/src/main/java/org/elasticsearch/discovery/gce/GceUnicastHostsProvider.java
+line67: cachedDiscoNodes
+	line245: cachedDiscoNodes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/suggest/completion/CompletionTokenStream.java
+line63: strings=toFiniteStrings.toFiniteStrings(input)
+	line69: strings.size()
+	line65: strings.size()
+	line66: strings.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/deletionpolicy/SnapshotIndexCommits.java
+line36: commits
+	line43: commits.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/stresstest/get/MGetStress1.java
+line74: ids=Sets.newHashSet()
+	line80: ids.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/pipeline/bucketmetrics/min/MinBucketPipelineAggregator.java
+line58: minBucketKeys
+	line93: minBucketKeys.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/admin/indices/analyze/AnalyzeResponse.java
+line102: tokens
+	line149: tokens.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/mapper/ParseContext.java
+line122: f=new ArrayList<>()
+	line128: f.size()
+
+line142: result=new ArrayList<>()
+	line148: result.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/action/get/MultiGetShardRequest.java
+line40: items
+	line105: items.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/mapper/ParsedDocument.java
+line45: documents
+	line95: documents.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/discovery/BlockingClusterStatePublishResponseHandler.java
+line37: pendingNodes
+	line46: pendingNodes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/recovery/RelocationTests.java
+line313: builders1=new ArrayList<>()
+	line331: builders1.size()
+
+line318: builders2=new ArrayList<>()
+	line336: builders2.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/inject/internal/ProviderMethod.java
+line41: parameterProviders
+	line92: parameterProviders.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/test/rest/test/AssertionParsersTests.java
+line146: strings=(List)matchAssertion.getExpectedValue()
+	line147: strings.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/aggregations/bucket/terms/TermsParser.java
+line52: orderElements=aggParser.getOrderElements()
+	line53: orderElements.size()
+
+line53: orders=new ArrayList<>(orderElements.size())
+	line58: orders.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/search/child/ChildQuerySearchTests.java
+line268: builders=new ArrayList<>()
+	line333: builders.size()
+
+line316: builders=new ArrayList<>()
+	line333: builders.size()
+
+line342: childIds=parentToChildrenEntry.getValue()
+	line343: childIds.size()
+	line348: childIds.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/index/get/GetField.java
+line38: values
+	line91: values.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/search/highlight/PostingsHighlighter.java
+line73: snippets=new ArrayList<>()
+	line117: snippets.size()
+	line155: snippets.size()
+	line145: snippets.size()
+
+line77: fieldValues=HighlightUtils.loadFieldValues(field,fieldMapper,context,hitContext)
+	line85: fieldValues.size()
+
+line145: filteredSnippets=new ArrayList<>(snippets.size())
+	line154: filteredSnippets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/test/java/org/elasticsearch/common/lucene/LuceneTest.java
+line306: deleteTerms=new ArrayList<>()
+	line321: deleteTerms.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/elasticsearch 上午10.33.36/core/src/main/java/org/elasticsearch/common/util/concurrent/PrioritizedEsThreadPoolExecutor.java
+line40: current=ConcurrentCollections.newQueue()
+	line54: current.size()
+
+line47: pending=Lists.newArrayList()
+	line50: pending.size()
+
+----------------project output in simple mode-----------------------
+project name: iosched 上午10.33.36
+project path: /Users/barry/Documents/workspace/apiSearch/./codehouse/iosched 上午10.33.36
+
+msg:found that following files have used this API...
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/iosched 上午10.33.36/third_party/glide/library/src/main/java/com/bumptech/glide/GenericRequestBuilder.java
+line42: transformations=new ArrayList<Transformation<ResourceType>>()
+	line503: transformations.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/iosched 上午10.33.36/third_party/glide/library/src/main/java/com/bumptech/glide/util/ByteArrayPool.java
+line16: tempQueue=new LinkedList<byte[]>()
+	line52: tempQueue.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/iosched 上午10.33.36/android/src/main/java/com/google/samples/apps/iosched/provider/ScheduleContract.java
+line633: pathSegments=uri.getPathSegments()
+	line634: pathSegments.size()
+
+line658: segments=uri.getPathSegments()
+	line682: segments.size()
+	line659: segments.size()
+
+line681: segments=uri.getPathSegments()
+	line682: segments.size()
+	line659: segments.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/iosched 上午10.33.36/third_party/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BaseKeyPool.java
+line11: keyPool
+	line30: keyPool.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/iosched 上午10.33.36/third_party/volley/src/com/android/volley/toolbox/ByteArrayPool.java
+line57: mBuffersBySize=new ArrayList<byte[]>(64)
+	line92: mBuffersBySize.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/iosched 上午10.33.36/third_party/glide/library/src/main/java/com/bumptech/glide/ListPreloader.java
+line109: items=getItems(start,end)
+	line119: items.size()
+	line113: items.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/iosched 上午10.33.36/android/src/main/java/com/google/samples/apps/iosched/ui/SessionDetailActivity.java
+line712: tags=new ArrayList<TagMetadata.Tag>()
+	line727: tags.size()
+
+line773: links=new ArrayList<Pair<Integer,Object>>()
+	line807: links.size()
+	line812: links.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/iosched 上午10.33.36/gcm-server/src/main/java/com/google/android/apps/iosched/gcm/server/device/MessageSender.java
+line66: partialDevices=new ArrayList<String>(total)
+	line71: partialDevices.size()
+
+line121: results=multicastResult.getResults()
+	line122: results.size()
+	line134: results.size()
+
+line132: results=multicastResult.getResults()
+	line122: results.size()
+	line134: results.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/iosched 上午10.33.36/gcm-server/src/main/java/com/google/android/apps/iosched/gcm/server/api/SendMessageServlet.java
+line102: allDevices=DeviceStore.getAllDevices()
+	line106: allDevices.size()
+
+line131: userDevices=DeviceStore.findDevicesByGcmGroupId(target)
+	line135: userDevices.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/iosched 上午10.33.36/third_party/glide/library/src/main/java/com/bumptech/glide/load/engine/EngineJob.java
+line18: cbs=new ArrayList<ResourceCallback>()
+	line36: cbs.size()
+	line67: cbs.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/iosched 上午10.33.36/android/src/main/java/com/google/samples/apps/iosched/service/SessionAlarmService.java
+line303: needFeedbackIds=new ArrayList<String>()
+	line326: needFeedbackIds.size()
+	line354: needFeedbackIds.size()
+	line320: needFeedbackIds.size()
+	line389: needFeedbackIds.size()
+	line379: needFeedbackIds.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/iosched 上午10.33.36/third_party/volley/src/com/android/volley/VolleyLog.java
+line121: mMarkers=new ArrayList<Marker>()
+	line172: mMarkers.size()
+	line167: mMarkers.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/iosched 上午10.33.36/third_party/glide/library/src/main/java/com/bumptech/glide/load/MultiTransformation.java
+line12: transformationList
+	line22: transformationList.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/iosched 上午10.33.36/Wearable/src/main/java/com/google/samples/apps/iosched/iowear/PagerAdapter.java
+line28: mFragments=null
+	line42: mFragments.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/iosched 上午10.33.36/android/src/main/java/com/google/samples/apps/iosched/nearby/NearbyDevice.java
+line38: mRSSIHistory
+	line68: mRSSIHistory.size()
+	line64: mRSSIHistory.size()
+	line96: mRSSIHistory.size()
+	line73: mRSSIHistory.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/iosched 上午10.33.36/third_party/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/GroupedLinkedMap.java
+line116: values
+	line136: values.size()
+
+----------------project output in simple mode-----------------------
+project name: Orienteering
+project path: /Users/barry/Documents/workspace/apiSearch/./codehouse/Orienteering
+
+msg:found that following files have used this API...
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/Orienteering/Orienteering.java
+line29: waypoints
+	line142: m.waypoints.size()
+	line67: m.waypoints.size()
+
+line167: pending=new LinkedList<Point>()
+	line170: pending.size()
+
+----------------project output in simple mode-----------------------
+project name: storm 上午10.33.36
+project path: /Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36
+
+msg:found that following files have used this API...
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/utils/ListDelegate.java
+line27: _delegate
+	line43: _delegate.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/fluent/ChainedAggregatorDeclarer.java
+line62: _aggs=new ArrayList<AggSpec>()
+	line78: _aggs.size()
+	line73: _aggs.size()
+	line74: _aggs.size()
+	line75: _aggs.size()
+
+line76: allOutFields=new ArrayList<String>()
+	line91: allOutFields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/state/map/NonTransactionalMap.java
+line44: curr=_backing.multiGet(keys)
+	line46: curr.size()
+	line45: curr.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/testing/FixedTupleSpout.java
+line54: _tuples
+	line127: _tuples.size()
+
+line58: _serveTuples
+	line136: _serveTuples.size()
+
+line117: tasks=context.getComponentTasks(context.getThisComponentId())
+	line119: tasks.size()
+	line127: tasks.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/security/auth/ReqContext.java
+line97: princs=_subject.getPrincipals()
+	line98: princs.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/generated/ClusterSummary.java
+line48: supervisors
+	line186: this.supervisors.size()
+	line524: this.supervisors.size()
+
+line50: topologies
+	line246: this.topologies.size()
+	line539: this.topologies.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/tuple/Fields.java
+line29: _fields
+	line91: _fields.size()
+	line61: _fields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/generated/JavaObject.java
+line48: args_list
+	line187: this.args_list.size()
+	line414: this.args_list.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/drpc/LinearDRPCTopologyBuilder.java
+line50: _components=new ArrayList<Component>()
+	line114: _components.size()
+	line147: _components.size()
+	line104: _components.size()
+
+line155: fields=streams.get(outputStream).get_output_fields()
+	line156: fields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/TridentTopology.java
+line208: streams=new ArrayList<Stream>()
+	line800: streams.size()
+	line250: streams.size()
+	line792: streams.size()
+
+line368: connectedComponents=new ConnectivityInspector<Node,IndexedEdge>(graph).connectedSets()
+	line369: connectedComponents.size()
+
+line429: connectedComponents=new ConnectivityInspector<Node,IndexedEdge>(graph).connectedSets()
+	line369: connectedComponents.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/planner/processor/AggregateProcessor.java
+line47: parents=tridentContext.getParentTupleFactories()
+	line48: parents.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/util/TridentUtils.java
+line104: parents=getParents(g,n)
+	line105: parents.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/partition/IndexHashGrouping.java
+line35: _targets
+	line49: _targets.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/utils/Utils.java
+line197: confList=new ArrayList((List)conf)
+	line198: confList.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/operation/impl/GroupedMultiReducerExecutor.java
+line35: _groupFields
+	line51: _groupFields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/planner/SubtopologyBolt.java
+line51: _nodes
+	line158: _nodes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/task/TopologyContext.java
+line168: tasks=new ArrayList<Integer>(getComponentTasks(getThisComponentId()))
+	line170: tasks.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/tuple/ComboList.java
+line54: l=delegates[i]
+	line55: l.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/state/map/CachedMap.java
+line43: toGet=new ArrayList<List<Object>>()
+	line53: toGet.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/planner/processor/EachProcessor.java
+line47: parents=tridentContext.getParentTupleFactories()
+	line48: parents.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/graph/GraphGrouper.java
+line64: outgoingGroups=outgoingGroups(g)
+	line65: outgoingGroups.size()
+
+line74: incomingGroups=incomingGroups(g)
+	line75: incomingGroups.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/partition/IdentityGrouping.java
+line38: sourceTasks=new ArrayList<Integer>(context.getComponentTasks(stream.get_componentId()))
+	line40: sourceTasks.size()
+	line45: sourceTasks.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/testing/FeederBatchSpout.java
+line78: allBatches=(List)RegisteredGlobalState.getState(_id)
+	line79: allBatches.size()
+	line121: allBatches.size()
+
+line86: batchList=(List)batchInfo
+	line91: batchList.size()
+
+line120: allBatches=(List)RegisteredGlobalState.getState(_id)
+	line79: allBatches.size()
+	line121: allBatches.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/testing/MemoryTransactionalSpout.java
+line101: queue=getQueues().get(partition)
+	line102: queue.size()
+
+line126: queue=getQueues().get(partition)
+	line102: queue.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/scheduler/Cluster.java
+line218: ports=this.getAvailablePorts(supervisor)
+	line219: ports.size()
+	line230: ports.size()
+
+line229: ports=this.getAssignablePorts(supervisor)
+	line219: ports.size()
+	line230: ports.size()
+
+line270: slots=new HashSet<WorkerSlot>()
+	line273: slots.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/tuple/TupleImpl.java
+line38: values
+	line305: values.size()
+	line255: values.size()
+	line54: values.size()
+	line337: values.size()
+	line320: values.size()
+	line96: values.size()
+	line335: values.size()
+	line58: values.size()
+
+line262: fields
+	line286: fields.size()
+
+line263: values
+	line305: values.size()
+	line255: values.size()
+	line54: values.size()
+	line337: values.size()
+	line320: values.size()
+	line96: values.size()
+	line335: values.size()
+	line58: values.size()
+
+line336: fields=getFields().toList()
+	line286: fields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/generated/TopologyInfo.java
+line54: executors
+	line306: this.executors.size()
+	line798: this.executors.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/tuple/ConsList.java
+line24: _elems
+	line42: _elems.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/topology/MasterBatchCoordinator.java
+line66: _spouts
+	line107: _spouts.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/utils/VersionedStore.java
+line60: all=getAllVersions()
+	line61: all.size()
+
+line66: all=getAllVersions()
+	line61: all.size()
+
+line117: versions=getAllVersions()
+	line119: versions.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/testing/OpaqueMemoryTransactionalSpout.java
+line116: queue=getQueues().get(partition)
+	line117: queue.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/utils/KeyedRoundRobinQueue.java
+line32: _keyOrder=new ArrayList<Object>()
+	line57: _keyOrder.size()
+	line63: _keyOrder.size()
+	line60: _keyOrder.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/operation/impl/JoinerMultiReducer.java
+line34: _types
+	line58: _types.size()
+
+line35: _sideFields
+	line50: _sideFields.size()
+	line48: _sideFields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/planner/processor/StateQueryProcessor.java
+line52: parents=tridentContext.getParentTupleFactories()
+	line53: parents.size()
+
+line84: results=_function.batchRetrieve(_state,state.args)
+	line85: results.size()
+	line86: results.size()
+
+line98: tuples=new ArrayList<TridentTuple>()
+	line85: state.tuples.size()
+	line86: state.tuples.size()
+	line88: state.tuples.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/spout/PartitionedTridentSpoutExecutor.java
+line106: partitions=_emitter.getOrderedPartitions(coordinatorMeta)
+	line109: partitions.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/spout/OpaquePartitionedTridentSpoutExecutor.java
+line98: partitions=_emitter.getOrderedPartitions(coordinatorMeta)
+	line101: partitions.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/planner/processor/MultiReducerProcessor.java
+line39: _projectFields
+	line58: _projectFields.size()
+	line57: _projectFields.size()
+
+line53: parentStreams=tridentContext.getParentStreams()
+	line54: parentStreams.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/state/map/CachedBatchReadsMap.java
+line52: vals=_delegate.multiGet(keys)
+	line53: vals.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/generated/Grouping.java
+line280: fields
+	line381: fields.size()
+
+line379: fields=(List<String>)value_
+	line381: fields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/drpc/DRPCSpout.java
+line45: _clients=new ArrayList<DRPCInvocationsClient>()
+	line104: _clients.size()
+
+line77: servers=(List<String>)conf.get(Config.DRPC_SERVERS)
+	line86: servers.size()
+	line81: servers.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/state/map/MapReducerAggStateUpdater.java
+line68: uniqueGroups=new ArrayList(grouped.keySet())
+	line69: uniqueGroups.size()
+	line75: uniqueGroups.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/backtype/storm/generated/StreamInfo.java
+line47: output_fields
+	line168: this.output_fields.size()
+	line412: this.output_fields.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/storm 上午10.33.36/storm-core/src/jvm/storm/trident/planner/processor/PartitionPersistProcessor.java
+line53: parents=tridentContext.getParentTupleFactories()
+	line54: parents.size()
+
+line84: buffer=(List)processorContext.state[_context.getStateIndex()]
+	line90: buffer.size()
+
+-------------intermediate data saving---------------
+Serialized data is saved in ./result/ActionBarSherlock 上午10.33.36
+Serialized data is saved in ./result/android 上午10.33.36
+Serialized data is saved in ./result/Android-Universal-Image-Loader 上午10.33.36
+Serialized data is saved in ./result/EclipseJDTCore 上午10.33.36
+Serialized data is saved in ./result/elasticsearch 上午10.33.36
+Serialized data is saved in ./result/iosched 上午10.33.36
+Serialized data is saved in ./result/libgdx 上午10.33.36
+Serialized data is saved in ./result/Orienteering
+Serialized data is saved in ./result/SlidingMenu 上午10.33.36
+Serialized data is saved in ./result/storm 上午10.33.36

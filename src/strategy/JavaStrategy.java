@@ -1,4 +1,4 @@
-package apiSearch.tool;
+package strategy;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,6 +8,9 @@ import apiSearch.intermediate.InterRep;
 import apiSearch.intermediate.Var;
 import apiSearch.parser.JDT;
 import apiSearch.search.JDTSearch;
+import apiSearch.tool.Flag;
+import apiSearch.tool.Input;
+import apiSearch.tool.Project;
 
 public class JavaStrategy extends Strategy {
 

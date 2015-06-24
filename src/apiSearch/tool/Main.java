@@ -1,5 +1,7 @@
 package apiSearch.tool;
 
+import strategy.JavaStrategy;
+import strategy.Strategy;
 import apiSearch.intermediate.FileIO;
 
 public class Main {
@@ -10,33 +12,52 @@ public class Main {
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-		Input in = new Input();
-		in.read(args);
-		if (in.language.contains("java")) {
-			JavaStrategy strategy = new JavaStrategy(in);
-			
-			isJDKAPI(in);
-			
-			strategy.strategy(".java");
-			
-			if (in.create) {
-				
-				System.out.println("-------------intermediate data saving---------------");
-				
-				for (int i = 0; i < strategy.projects.size(); i++) {
-					
-					Project now = strategy.projects.get(i);
-					
-					FileIO io = new FileIO(makePath(in.savaPath, now.name));
-					io.write(now);
-					
-				}				
-			}
-		}
-		
+		Main main = new Main();
+		Language.set();
+		main.begin(args);
 	}
 
-	private static void isJDKAPI(Input in) {
+	private void begin(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		Input in = new Input();
+		in.read(args);
+		
+		String extension = Language.getExtension(in.language);
+		isJDKAPI(in);
+		
+		Strategy strategy = makeStrategy(in);
+		
+		
+		strategy.strategy(extension);
+		
+		if (in.create) {
+			
+			System.out.println("-------------intermediate data saving---------------");
+			
+			for (int i = 0; i < strategy.projects.size(); i++) {
+				
+				Project now = strategy.projects.get(i);
+				
+				FileIO io = new FileIO(makePath(in.savaPath, now.name));
+				io.write(now);
+				
+			}				
+		}
+	}
+
+	private Strategy makeStrategy(Input in) {
+		// TODO Auto-generated method stub
+		
+		Strategy strategy = null;
+		
+		if (in.language.contains("java")) {
+			JavaStrategy now = new JavaStrategy(in);
+			return now;
+		}
+		return strategy;
+	}
+
+	private void isJDKAPI(Input in) {
 		// TODO Auto-generated method stub
 		JDK jdk;
 		if (in.jdkPath.isEmpty()) {
@@ -54,7 +75,7 @@ public class Main {
 		}	
 	}
 
-	private static String makePath(String path, String name) {
+	private String makePath(String path, String name) {
 		// TODO Auto-generated method stub
 		return path + "/" + name;
 	}

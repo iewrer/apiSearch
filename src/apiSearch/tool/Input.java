@@ -2,20 +2,20 @@ package apiSearch.tool;
 
 public class Input {
 	
-	boolean create;//重新创建搜索还是从中间表示形式中读取
-	String inter;
-	String output;
-	String search;
-	String parser;
+	public boolean create;//重新创建搜索还是从中间表示形式中读取
+	public String inter;
+	public String output;
+	public String search;
+	public String parser;
 	
-	String language;
-	String api;
+	public String language;
+	public String api;
 	
-	String path;//整个代码库的存放位置
-	String savaPath;
-	String jdkPath;
+	public String path;//整个代码库的存放位置
+	public String savaPath;
+	public String jdkPath;
 	
-	boolean debug;
+	public boolean debug;
 
 	public Input() {
 		// TODO Auto-generated constructor stub
@@ -32,7 +32,7 @@ public class Input {
 		jdkPath = new String();
 	}
 	
-	void read(String[] args) throws Exception {
+	public void read(String[] args) throws Exception {
 		
 		for (int i = 0; i < args.length; i++) {
 			String now = args[i];

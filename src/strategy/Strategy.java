@@ -1,4 +1,4 @@
-package apiSearch.tool;
+package strategy;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -12,6 +12,9 @@ import apiSearch.parser.JDT;
 import apiSearch.parser.Parser;
 import apiSearch.search.JDTSearch;
 import apiSearch.search.Search;
+import apiSearch.tool.Flag;
+import apiSearch.tool.Input;
+import apiSearch.tool.Project;
 
 /**
  * 根据工具中读取的输入，存储并设置相应的apiSearch策略
@@ -33,7 +36,7 @@ public abstract class Strategy {
 	Set<String> validInter;
 	Set<String> validOutput;
 	
-	ArrayList<Project> projects;
+	public ArrayList<Project> projects;
 	
 	String readPath;
 
@@ -44,6 +47,15 @@ public abstract class Strategy {
 		setStrategy();
 		projects = new ArrayList<Project>();
 		readPath = in.savaPath;
+		mkSaveDir();
+	}
+
+	private void mkSaveDir() {
+		// TODO Auto-generated method stub
+		File save = new File(in.savaPath);
+		if (!save.exists()) {
+			save.mkdirs();
+		}
 	}
 
 	private void setvalidParameter() {
