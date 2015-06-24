@@ -4,6 +4,12 @@ import java.util.ArrayList;
 
 import apiSearch.intermediate.Var;
 
+
+/**
+ * 搜索算法的抽象基类，拆分API为类型+方法名，并在某棵AST上进行搜索
+ * @author barry
+ *
+ */
 public abstract class Search {
 
 	String type;
@@ -33,6 +39,6 @@ public abstract class Search {
 	public String getType() {
 		return type;
 	}
-	public abstract ArrayList<Var> search(Object root, boolean debug);
+	public abstract ArrayList<Var> search(Object root);
 
 }

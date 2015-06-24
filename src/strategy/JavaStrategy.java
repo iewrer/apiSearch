@@ -8,7 +8,7 @@ import apiSearch.intermediate.InterRep;
 import apiSearch.intermediate.Var;
 import apiSearch.parser.JDT;
 import apiSearch.search.JDTSearch;
-import apiSearch.tool.Flag;
+import apiSearch.staticClass.Flag;
 import apiSearch.tool.Input;
 import apiSearch.tool.Project;
 
@@ -91,7 +91,7 @@ public class JavaStrategy extends Strategy {
 				}
 				
 				InterRep inter = new InterRep();
-				inter.setData(searcher.search(jdt.getRoot(), false));
+				inter.setData(searcher.search(jdt.getRoot()));
 				
 				boolean empty = true;
 				

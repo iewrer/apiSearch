@@ -1,12 +1,20 @@
 package apiSearch.output;
 
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Map.Entry;
 
 import apiSearch.intermediate.InterRep;
 import apiSearch.intermediate.Var;
 import apiSearch.tool.Project;
+
+
+/**
+ * 简单的信息输出格式，输出信息包括：
+ * 	1.该项目的相关信息
+ * 	2.该项目中有哪些文件中找到了该API的使用情况
+ * @author barry
+ *
+ */
 
 public class Simple extends Output {
 

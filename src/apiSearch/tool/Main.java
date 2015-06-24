@@ -2,18 +2,29 @@ package apiSearch.tool;
 
 import strategy.JavaStrategy;
 import strategy.Strategy;
+import apiSearch.api.JDK;
 import apiSearch.intermediate.FileIO;
+import apiSearch.staticClass.Language;
 
+
+
+/**
+ * API搜索的入口，若要增加新的支持，需要：
+ * 	1.增加isOfficalAPI(...)中对应的语言官方API检测
+ * 	2.增加makeStrategy(...)方法中对应的新搜索策略的对象创建
+ * @author barry
+ *
+ */
 public class Main {
 
 	public Main() {
 		// TODO Auto-generated constructor stub
+		Language.set();
 	}
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		Main main = new Main();
-		Language.set();
 		main.begin(args);
 	}
 
@@ -23,7 +34,7 @@ public class Main {
 		in.read(args);
 		
 		String extension = Language.getExtension(in.language);
-		isJDKAPI(in);
+		isOfficalAPI(in);
 		
 		Strategy strategy = makeStrategy(in);
 		
@@ -42,6 +53,13 @@ public class Main {
 				io.write(now);
 				
 			}				
+		}
+	}
+
+	private void isOfficalAPI(Input in) {
+		// TODO Auto-generated method stub
+		if (in.language.contains("java")) {
+			isJDKAPI(in);
 		}
 	}
 
@@ -67,7 +85,7 @@ public class Main {
 			jdk = new JDK(in.jdkPath);
 		}
 		
-		if (jdk.isInJDK(in.api)) {
+		if (jdk.isInOfficialAPI(in.api)) {
 			System.out.println("trying to find JDK API: " + in.api + "");
 		}
 		else {

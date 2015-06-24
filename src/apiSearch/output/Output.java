@@ -1,10 +1,13 @@
 package apiSearch.output;
 
-import java.util.ArrayList;
-
-import apiSearch.intermediate.InterRep;
 import apiSearch.tool.Project;
 
+
+/**
+ * 信息输出格式的基类
+ * @author barry
+ *
+ */
 public abstract class Output {
 
 	public Output() {

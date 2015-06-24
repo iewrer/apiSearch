@@ -1,5 +1,11 @@
 package apiSearch.tool;
 
+
+/**
+ * 读取输入参数
+ * @author barry
+ *
+ */
 public class Input {
 	
 	public boolean create;//重新创建搜索还是从中间表示形式中读取

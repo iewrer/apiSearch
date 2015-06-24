@@ -5,6 +5,13 @@ import apiSearch.intermediate.Var;
 import apiSearch.parser.JDT;
 import apiSearch.search.JDTSearch;
 
+
+
+/**
+ * 单个文件的测试用例
+ * @author barry
+ *
+ */
 public class testSearch {
 
 	public testSearch() {
@@ -27,7 +34,7 @@ public class testSearch {
 		
 		InterRep json = new InterRep();
 		
-		json.setData(searcher.search(jdt.getRoot(), true));
+		json.setData(searcher.search(jdt.getRoot()));
 		
 		for (Var i : json.getData()) {
 			System.out.println("----------");

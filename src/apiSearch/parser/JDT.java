@@ -8,7 +8,11 @@ import org.eclipse.jdt.core.dom.AST;
 import org.eclipse.jdt.core.dom.ASTParser;
 import org.eclipse.jdt.core.dom.CompilationUnit;
 
-
+/**
+ * 采用JDT Core进行parse,其root为CompilationUnit类型
+ * @author barry
+ *
+ */
 public class JDT extends Parser{
 	
 	String src;

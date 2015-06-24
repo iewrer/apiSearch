@@ -12,12 +12,16 @@ import apiSearch.parser.JDT;
 import apiSearch.parser.Parser;
 import apiSearch.search.JDTSearch;
 import apiSearch.search.Search;
-import apiSearch.tool.Flag;
+import apiSearch.staticClass.Flag;
 import apiSearch.tool.Input;
 import apiSearch.tool.Project;
 
 /**
- * 根据工具中读取的输入，存储并设置相应的apiSearch策略
+ * 根据工具中读取的输入，存储并设置相应的API搜索策略
+ * 若需要增加新的支持，需要修改：
+ * 	1.增加setXXX()方法中的相应判断和对象创建；
+ * 	2.增加setValidXXX()方法中的相应内容；
+ * 	3.若要增加新的语言支持，则继承该类并实现所需的抽象方法，作为新的搜索策略；
  * @author barry
  *
  */
@@ -114,7 +118,9 @@ public abstract class Strategy {
 	private void setParser() {
 		// TODO Auto-generated method stub
 		if (validParser.contains(in.parser)) {
-			parser = new JDT(in.language);
+			if (in.parser.contains("jdt")) {
+				parser = new JDT(in.language);
+			}
 		}
 		else {
 			try {
@@ -129,7 +135,9 @@ public abstract class Strategy {
 	private void setOutput() {
 		// TODO Auto-generated method stub
 		if (validOutput.contains(in.output)) {
-			out = new Simple();
+			if (in.output.contains("simple")) {
+				out = new Simple();
+			}
 		}
 		else {
 			try {
@@ -144,7 +152,9 @@ public abstract class Strategy {
 	private void setSearch() {
 		// TODO Auto-generated method stub
 		if (validSearch.contains(in.search)) {
-			search = new JDTSearch();
+			if (in.search.contains("jdt")) {
+				search = new JDTSearch();
+			}
 		}
 		else {
 			try {
@@ -159,7 +169,9 @@ public abstract class Strategy {
 	private void setInter() {
 		// TODO Auto-generated method stub
 		if (validInter.contains(in.inter) || in.inter.isEmpty()) {
-			interIO = new FileIO();
+			if (in.inter.isEmpty() || in.inter.contains("default")) {
+				interIO = new FileIO();
+			}
 		}
 		else {
 			try {

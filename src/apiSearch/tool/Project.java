@@ -11,6 +11,15 @@ import java.util.Map.Entry;
 import apiSearch.intermediate.InterRep;
 import apiSearch.intermediate.Var;
 
+
+/**
+ * 用于存储单个项目的信息，包括：
+ * 	1.项目地址
+ * 	2.所有代码文件地址
+ * 	3.API搜索结果
+ * @author barry
+ *
+ */
 public class Project implements Serializable{
 	
 	public String name;
