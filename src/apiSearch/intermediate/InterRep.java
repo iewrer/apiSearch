@@ -29,5 +29,10 @@ public class InterRep implements Serializable{
 	public void setData(ArrayList<Var> data) {
 		this.data = data;
 	}
+
+	public void clearData() {
+		// TODO Auto-generated method stub
+		this.data.clear();
+	}
 }
 

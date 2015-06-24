@@ -1,7 +1,5 @@
 package apiSearch.tool;
 
-import java.util.Scanner;
-
 public class Input {
 	
 	boolean create;//重新创建搜索还是从中间表示形式中读取
@@ -15,10 +13,14 @@ public class Input {
 	
 	String path;//整个代码库的存放位置
 	String savaPath;
+	String jdkPath;
+	
+	boolean debug;
 
 	public Input() {
 		// TODO Auto-generated constructor stub
 		create = true;
+		debug = false;
 		inter = new String();
 		output = new String();
 		search = new String();
@@ -27,6 +29,7 @@ public class Input {
 		language = new String();
 		api = new String();
 		savaPath = new String();
+		jdkPath = new String();
 	}
 	
 	void read(String[] args) throws Exception {
@@ -72,6 +75,9 @@ public class Input {
 			else if (now.startsWith("-language")){
 				language = args[i + 1];
 				i++;
+			}
+			else if (now.startsWith("-debug")) {
+				debug = true;
 			}
 			else {
 				System.err.println(now);

@@ -1,168 +1,208 @@
----------------
-Orienteering
-find file: /Users/barry/Documents/workspace/apiSearch/./codehouse/Orienteering/MapCreator.java
-find file: /Users/barry/Documents/workspace/apiSearch/./codehouse/Orienteering/Orienteering.java
---------search begin------------
-search: /Users/barry/Documents/workspace/apiSearch/./codehouse/Orienteering/MapCreator.java
-+++
-java.lang.String
-+++
-int
-+++
-int
-+++
-int
-+++
-double
-+++
-java.util.Random
-+++
-char[][]
-+++
-java.io.PrintStream
-+++
-int
-+++
-int
-+++
-char[][]
-+++
-int
-+++
-int
-+++
-int
-+++
-int
-+++
-int
---------search end------------
---------search begin------------
-search: /Users/barry/Documents/workspace/apiSearch/./codehouse/Orienteering/Orienteering.java
-+++
-int
-+++
-int
-+++
-char
-+++
-jp.co.worksap.y2014.orienteering.Orienteering.Point
-+++
-jp.co.worksap.y2014.orienteering.Orienteering.Point
-+++
-java.util.List<jp.co.worksap.y2014.orienteering.Orienteering.Point>
-+++
-int
-+++
-int
-+++
-char[][]
-+++
-int
-+++
-int
-+++
-int[][]
-+++
-int[]
-+++
-int
-+++
-jp.co.worksap.y2014.orienteering.Orienteering.SearchParam
-+++
-int
-+++
-java.lang.String
-+++
-jp.co.worksap.y2014.orienteering.Orienteering.Map
-+++
-long
-+++
-int[][]
-+++
-int
-+++
-int
-+++
-int[]
-+++
-int
-+++
-int
-+++
-int
-+++
-int[]
-+++
-int
-+++
-int
-+++
-int
-+++
-int
-+++
-int
-+++
-int
-+++
-int[][]
-+++
-int
-+++
-jp.co.worksap.y2014.orienteering.Orienteering.Point
-+++
-int[][]
-+++
-int
-+++
-jp.co.worksap.y2014.orienteering.Orienteering.Point
-+++
-int
-+++
-int[]
-+++
-int[]
-+++
-int[][]
-+++
-int
-+++
-int
-+++
-java.util.Queue<jp.co.worksap.y2014.orienteering.Orienteering.Point>
-+++
-jp.co.worksap.y2014.orienteering.Orienteering.Point
-+++
-int
-+++
-int
-+++
-int
-+++
-int
-+++
-java.io.File
-+++
-java.util.Scanner
-+++
-int
-+++
-int
-+++
-jp.co.worksap.y2014.orienteering.Orienteering.Map
-+++
-java.util.List<jp.co.worksap.y2014.orienteering.Orienteering.Point>
-+++
-int
-+++
-java.lang.String
-+++
-int
-+++
-char
---------search end------------
-----------------output-----------------------
-project name: Orienteering
-project path: /Users/barry/Documents/workspace/apiSearch/./codehouse/Orienteering
-Serialized data is saved in ./result/Orienteering
+trying to find JDK API: java.util.Collection.size
+----------------project output in simple mode-----------------------
+project name: ActionBarSherlock 上午10.33.36
+project path: /Users/barry/Documents/workspace/apiSearch/./codehouse/ActionBarSherlock 上午10.33.36
+
+msg:found that following files have used this API...
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/ActionBarSherlock 上午10.33.36/actionbarsherlock-samples/fragments/src/com/actionbarsherlock/sample/fragments/SampleList.java
+line88: list=pm.queryIntentActivities(mainIntent,0)
+	line103: list.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/ActionBarSherlock 上午10.33.36/actionbarsherlock-samples/demos/src/com/actionbarsherlock/sample/demos/SampleList.java
+line88: list=pm.queryIntentActivities(mainIntent,0)
+	line103: list.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/ActionBarSherlock 上午10.33.36/actionbarsherlock-samples/fragments/src/com/actionbarsherlock/sample/fragments/LoaderCustomSupport.java
+line229: apps=mPm.getInstalledApplications(PackageManager.GET_UNINSTALLED_PACKAGES | PackageManager.GET_DISABLED_COMPONENTS)
+	line239: apps.size()
+	line240: apps.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/ActionBarSherlock 上午10.33.36/actionbarsherlock/src/com/actionbarsherlock/internal/view/menu/MenuBuilder.java
+line451: lri=pm.queryIntentActivityOptions(caller,specifics,intent,0)
+	line453: lri.size()
+
+line1278: nonActionItems=getNonActionItems()
+	line1279: nonActionItems.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/ActionBarSherlock 上午10.33.36/actionbarsherlock/src/com/actionbarsherlock/widget/ActivityChooserModel.java
+line239: mActivites=new ArrayList<ActivityResolveInfo>()
+	line401: mActivites.size()
+
+line244: mHistoricalRecords=new ArrayList<HistoricalRecord>()
+	line666: mHistoricalRecords.size()
+
+line427: activities=mActivites
+	line428: activities.size()
+	line897: activities.size()
+
+line693: choiceRecords=mHistoricalRecords
+	line694: choiceRecords.size()
+
+line713: resolveInfos=mContext.getPackageManager().queryIntentActivities(mIntent,0)
+	line715: resolveInfos.size()
+
+line956: readRecords=new ArrayList<HistoricalRecord>()
+	line987: readRecords.size()
+
+line991: uniqueShareRecords=new LinkedHashSet<HistoricalRecord>(readRecords)
+	line1005: uniqueShareRecords.size()
+
+line998: historicalRecords=mHistoricalRecords
+	line1005: historicalRecords.size()
+	line905: historicalRecords.size()
+	line999: historicalRecords.size()
+
+line1048: records=null
+	line1068: records.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/ActionBarSherlock 上午10.33.36/actionbarsherlock/src/com/actionbarsherlock/internal/view/menu/ActionMenu.java
+line75: lri=pm.queryIntentActivityOptions(caller,specifics,intent,0)
+	line77: lri.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/ActionBarSherlock 上午10.33.36/actionbarsherlock-samples/known-bugs/src/com/actionbarsherlock/sample/knownbugs/SampleList.java
+line81: mNames
+	line111: mNames.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/ActionBarSherlock 上午10.33.36/actionbarsherlock/src/com/actionbarsherlock/widget/SuggestionsAdapter.java
+line630: path=uri.getPathSegments()
+	line634: path.size()
+
+----------------project output in simple mode-----------------------
+project name: android 上午10.33.36
+project path: /Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36
+
+msg:found that following files have used this API...
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/ui/NewsFragment.java
+line234: commits=payload.getCommits()
+	line238: commits.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/core/gist/GistUriMatcher.java
+line40: segments=uri.getPathSegments()
+	line43: segments.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/core/repo/RepositoryUriMatcher.java
+line37: segments=uri.getPathSegments()
+	line40: segments.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/ui/repo/RepositoryListFragment.java
+line294: repos=cache.getRepos(org,isForceRefresh(args))
+	line250: repos.size()
+	line263: repos.size()
+	line281: repos.size()
+	line242: repos.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/androidTest/java/com/github/mobile/tests/commit/DiffStylerTest.java
+line43: styled=styler.get(fileName)
+	line53: styled.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/persistence/Organizations.java
+line95: orgs=orgService.getOrganizations()
+	line96: orgs.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/ui/issue/IssueFragment.java
+line469: events=(List<IssueEvent>)fullIssue.getEvents()
+	line489: events.size()
+	line470: events.size()
+	line482: events.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/ui/commit/CommitCompareListFragment.java
+line165: commits=compare.getCommits()
+	line171: commits.size()
+	line176: commits.size()
+
+line229: commits=compare.getCommits()
+	line235: commits.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/core/commit/CommitUriMatcher.java
+line39: segments=uri.getPathSegments()
+	line42: segments.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/ui/NavigationDrawerAdapter.java
+line29: orgs=new ArrayList<>()
+	line46: orgs.size()
+
+line30: data
+	line68: data.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/accounts/AccountUtils.java
+line170: accessible=new ArrayList<>(candidates.length)
+	line182: accessible.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/core/commit/FullCommit.java
+line50: rawFiles=commit.getFiles()
+	line52: rawFiles.size()
+	line73: rawFiles.size()
+
+line69: rawFiles=commit.getFiles()
+	line52: rawFiles.size()
+	line73: rawFiles.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/sync/SyncCampaign.java
+line79: orgs
+	line89: orgs.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/core/repo/DeleteRepositoryTask.java
+line86: scopes=auth.getScopes()
+	line88: scopes.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/core/issue/IssueUriMatcher.java
+line42: segments=uri.getPathSegments()
+	line45: segments.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/core/user/UserUriMatcher.java
+line38: segments=uri.getPathSegments()
+	line41: segments.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/ui/user/NewsListAdapter.java
+line414: commits=payload.getCommits()
+	line415: commits.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/ui/gist/GistFragment.java
+line87: comments
+	line396: comments.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/persistence/DatabaseCache.java
+line91: items=loadFromDB(helper,persistableResource)
+	line93: items.size()
+
+line123: items=persistableResource.request()
+	line93: items.size()
+
+
+file:/Users/barry/Documents/workspace/apiSearch/./codehouse/android 上午10.33.36/app/src/main/java/com/github/mobile/util/HttpImageGetter.java
+line217: segments=uri.getPathSegments()
+	line218: segments.size()
+	line240: segments.size()
+
+line249: contents=service.getContents(RepositoryId.create(owner,name),path.toString(),branch)
+	line251: contents.size()
+

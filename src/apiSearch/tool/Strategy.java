@@ -1,10 +1,11 @@
 package apiSearch.tool;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-import apiSearch.intermediate.InterRep;
+import apiSearch.intermediate.FileIO;
 import apiSearch.output.Output;
 import apiSearch.output.Simple;
 import apiSearch.parser.JDT;
@@ -23,7 +24,7 @@ public abstract class Strategy {
 	Input in;
 	Output out;
 	
-	InterRep inter;
+	FileIO interIO;
 	Search search;
 	Parser parser;
 	
@@ -33,6 +34,8 @@ public abstract class Strategy {
 	Set<String> validOutput;
 	
 	ArrayList<Project> projects;
+	
+	String readPath;
 
 	public Strategy(Input in) {
 		// TODO Auto-generated constructor stub
@@ -40,6 +43,7 @@ public abstract class Strategy {
 		setvalidParameter();
 		setStrategy();
 		projects = new ArrayList<Project>();
+		readPath = in.savaPath;
 	}
 
 	private void setvalidParameter() {
@@ -48,6 +52,17 @@ public abstract class Strategy {
 		setvalidSearch();
 		setvalidInter();
 		setvalidOutput();
+		
+	}
+
+	private void setDebug() {
+		// TODO Auto-generated method stub
+		if (in.debug) {
+			Flag.debug = true;
+		}
+		else {
+			Flag.debug = false;
+		}
 	}
 
 	private void setvalidOutput() {
@@ -81,6 +96,7 @@ public abstract class Strategy {
 		setInter();
 		setOutput();
 		setParser();
+		setDebug();
 	}
 
 	private void setParser() {
@@ -131,7 +147,7 @@ public abstract class Strategy {
 	private void setInter() {
 		// TODO Auto-generated method stub
 		if (validInter.contains(in.inter) || in.inter.isEmpty()) {
-			inter = new InterRep();
+			interIO = new FileIO();
 		}
 		else {
 			try {
@@ -142,6 +158,33 @@ public abstract class Strategy {
 			}
 		}
 	}
+	
+	public ArrayList<Project> findProject(String extension) {
+		// TODO Auto-generated method stub
+		File codehouse = new File(in.path);
+		File[] projectDirectories = codehouse.listFiles();
+		ArrayList<Project> projects = new ArrayList<Project>();
+		
+		for (File project : projectDirectories) {
+			if (project.isDirectory()) {
+				String projectName = project.getName();
+				String projectPath = project.getAbsolutePath();
+				if (in.debug) {
+					System.out.println("---------------");
+					System.out.println(projectName);					
+				}
+				Project now = new Project(projectName, projectPath, extension);
+				projects.add(now);
+			}
+		}
+		
+		return projects;
+	}
+	
+	
 	public abstract void strategy(String extension);
+	public abstract void createSearch(String extension);
+	public abstract void readSearch();
+	public abstract void DoSomething();
 
 }

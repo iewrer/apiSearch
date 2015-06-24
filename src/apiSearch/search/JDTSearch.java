@@ -1,10 +1,7 @@
 package apiSearch.search;
 
-import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Iterator;
 
-import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.ASTVisitor;
 import org.eclipse.jdt.core.dom.CompilationUnit;
 import org.eclipse.jdt.core.dom.Expression;
@@ -12,11 +9,8 @@ import org.eclipse.jdt.core.dom.IBinding;
 import org.eclipse.jdt.core.dom.ITypeBinding;
 import org.eclipse.jdt.core.dom.IVariableBinding;
 import org.eclipse.jdt.core.dom.MethodInvocation;
-import org.eclipse.jdt.core.dom.Name;
 import org.eclipse.jdt.core.dom.SimpleName;
-import org.eclipse.jdt.core.dom.TypeDeclaration;
 import org.eclipse.jdt.core.dom.VariableDeclarationFragment;
-import org.eclipse.jdt.core.dom.VariableDeclarationStatement;
 
 import apiSearch.intermediate.Var;
 
@@ -223,46 +217,6 @@ class InvocationVisitor extends MyVisitor {
 		}
 		return true;
 	}
-	 
-
-
-	
-
-	
-	
-//	public boolean visit(VariableDeclarationStatement node){
-//		for (Iterator iter = node.fragments().iterator(); iter.hasNext();) {
-//			
-//			VariableDeclarationFragment fragment = (VariableDeclarationFragment) iter.next();
-//			IVariableBinding binding = fragment.resolveBinding();
-//			if (binding == null) {
-//				return true;
-//			}
-//			
-//			if (debug) {
-//				System.out.println("binding variable declaration: " +binding.getVariableDeclaration());
-//			}
-//			
-//			ITypeBinding t = binding.getType();
-//			if (t != null && isTarget(t)) {
-//
-//				int pos = cu.getLineNumber(node.getStartPosition() - 1);
-//
-//				if (debug) {
-//					System.out.println("------------------");
-//					System.out.println("binding variable declaration: " +binding.getVariableDeclaration());
-//					System.out.println(node.toString());
-//					System.out.println("pos: " + pos);
-//				}
-//				
-//				Var now = new Var();
-//				now.setDefinition(pos, node.toString());
-//				data.add(now);
-//				
-//			}
-//		}
-//		return true;
-//	}
 	
 }
 
@@ -273,8 +227,9 @@ public class JDTSearch extends Search {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public ArrayList<Var> search(final CompilationUnit cu, boolean debug) {
+	public ArrayList<Var> search(Object root, boolean debug) {
 		
+		final CompilationUnit cu = (CompilationUnit)root;
 		
 		VarVisitor varVisitor = new VarVisitor(cu, type, name);
 		

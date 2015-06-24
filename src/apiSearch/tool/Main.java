@@ -1,7 +1,5 @@
 package apiSearch.tool;
 
-import java.io.IOException;
-
 import apiSearch.intermediate.FileIO;
 
 public class Main {
@@ -16,17 +14,44 @@ public class Main {
 		in.read(args);
 		if (in.language.contains("java")) {
 			JavaStrategy strategy = new JavaStrategy(in);
+			
+			isJDKAPI(in);
+			
 			strategy.strategy(".java");
-			for (int i = 0; i < strategy.projects.size(); i++) {
+			
+			if (in.create) {
 				
-				Project now = strategy.projects.get(i);
+				System.out.println("-------------intermediate data saving---------------");
 				
-				FileIO io = new FileIO(makePath(in.savaPath, now.name));
-				io.write(now.result);
-				
+				for (int i = 0; i < strategy.projects.size(); i++) {
+					
+					Project now = strategy.projects.get(i);
+					
+					FileIO io = new FileIO(makePath(in.savaPath, now.name));
+					io.write(now);
+					
+				}				
 			}
 		}
 		
+	}
+
+	private static void isJDKAPI(Input in) {
+		// TODO Auto-generated method stub
+		JDK jdk;
+		if (in.jdkPath.isEmpty()) {
+			jdk = new JDK();
+		}
+		else {
+			jdk = new JDK(in.jdkPath);
+		}
+		
+		if (jdk.isInJDK(in.api)) {
+			System.out.println("trying to find JDK API: " + in.api + "");
+		}
+		else {
+			System.out.println("trying to find Third Party API: " + in.api + "");
+		}	
 	}
 
 	private static String makePath(String path, String name) {

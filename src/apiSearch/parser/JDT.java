@@ -5,14 +5,12 @@ import java.io.FileReader;
 import java.io.IOException;
 
 import org.eclipse.jdt.core.dom.AST;
-import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.ASTParser;
 import org.eclipse.jdt.core.dom.CompilationUnit;
 
 
 public class JDT extends Parser{
 	
-	CompilationUnit root;
 	String src;
 
 	public JDT(String language) {
@@ -44,9 +42,6 @@ public class JDT extends Parser{
 			parser.setBindingsRecovery(true);
 			final CompilationUnit cu = (CompilationUnit) parser.createAST(null);
 			
-//			if (cu.getAST().hasResolvedBindings()) {
-//				System.out.println("Binding activated.");
-//			}
 			root = cu;
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -56,7 +51,7 @@ public class JDT extends Parser{
 	}
 
 	public String readFileToString(String filePath) throws IOException {
-		StringBuilder fileData = new StringBuilder(1000);
+		StringBuilder fileData = new StringBuilder(2000);
 		BufferedReader reader = new BufferedReader(new FileReader(filePath));
  
 		char[] buf = new char[10];
@@ -81,6 +76,6 @@ public class JDT extends Parser{
 	}
 	
 	public CompilationUnit getRoot() {
-		return root;
+		return (CompilationUnit)root;
 	}
 }

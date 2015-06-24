@@ -1,16 +1,17 @@
 package apiSearch.intermediate;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
 import org.eclipse.jdt.core.dom.ASTNode;
 
-public class Var {
+public class Var implements Serializable{
 
 	int dec;
 	String code;
-	ASTNode node;
-	Map<Integer, String> lineToCode; //lineNumber -> Code
+	transient ASTNode node;
+	public Map<Integer, String> lineToCode; //lineNumber -> Code
 	
 	public Var() {
 		// TODO Auto-generated constructor stub
@@ -33,7 +34,7 @@ public class Var {
 	public String toString() {
 		// TODO Auto-generated method stub
 		if (lineToCode.isEmpty()) {
-			return "not found";
+			return "";
 		}
 		String define = "line" + dec + ": " + code + "\n";
 		String methodinvoke = "";

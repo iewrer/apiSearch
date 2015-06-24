@@ -2,6 +2,8 @@ package apiSearch.search;
 
 import java.util.ArrayList;
 
+import apiSearch.intermediate.Var;
+
 public abstract class Search {
 
 	String type;
@@ -26,8 +28,11 @@ public abstract class Search {
 		}
 		type += names.get(names.size() - 2);
 		
-//		System.out.println(type);
-//		System.out.println(name);
 	}
+	
+	public String getType() {
+		return type;
+	}
+	public abstract ArrayList<Var> search(Object root, boolean debug);
 
 }

@@ -1,8 +1,9 @@
 package apiSearch.tool;
 
 import java.io.File;
-import java.util.ArrayList;
+import java.io.IOException;
 
+import apiSearch.intermediate.FileIO;
 import apiSearch.intermediate.InterRep;
 import apiSearch.intermediate.Var;
 import apiSearch.parser.JDT;
@@ -18,57 +19,100 @@ public class JavaStrategy extends Strategy {
 	@Override
 	public void strategy(String extension) {
 		// TODO Auto-generated method stub
+
+		if (in.create) {
+			createSearch(extension);
+		}		
+		else {
+			readSearch();
+		}
+
+	}
+
+	public void readSearch() {
+		// TODO Auto-generated method stub
+		File results = new File(readPath);
+		File[] files = results.listFiles();
+		if (files != null) {
+			
+			System.out.println("-------------intermediate data reading---------------");
+			for(File project : files) {
+				
+				if (project.getName().startsWith(".")) {
+					continue;
+				}
+
+				FileIO reader = new FileIO(project.getAbsolutePath());
+				
+				try {
+					Project now = reader.read();
+					projects.add(now);
+					out.output(now);
+				} catch (ClassNotFoundException | IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}		
+			}
+		}
+		DoSomething();
+	}
+
+	//读取上次搜索的结果后可以继续做一些事儿...
+	public void DoSomething() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void createSearch(String extension) {
+		// TODO Auto-generated method stub
 		projects = findProject(extension);
+		JDT jdt = (JDT)parser;
+		JDTSearch searcher = (JDTSearch)search;
+		searcher.setAPI(in.api);
+		
+		
 		for (int i = 0; i < projects.size(); i++) {
 			Project now = projects.get(i);
+	
+			jdt.setSrc(now.path);		
+			
 			for (int j = 0; j < now.codes.size(); j++) {
 				String codePath = now.codes.get(j);
 				
-				JDT jdt = (JDT)parser;
 				jdt.SetFile(codePath);
-				jdt.setSrc(now.path);
 				jdt.parse();				
 			
-				JDTSearch jdtsearch = (JDTSearch)search;
-				jdtsearch.setAPI(in.api);
-				
-				System.out.println("--------search begin------------");
-				System.out.println("search: " + codePath);
-				
-				inter.setData(jdtsearch.search(jdt.getRoot(), true));
-				now.result.add(inter);
-				
-				for (Var var : inter.getData()) {
-					System.out.println("----------");
-					System.out.println(var.toString());
+				if (Flag.debug) {
+					System.out.println("--------search begin------------");
+					System.out.println("search: " + codePath);
 				}
 				
-				System.out.println("--------search end------------");
+				InterRep inter = new InterRep();
+				inter.setData(searcher.search(jdt.getRoot(), false));
+				
+				boolean empty = true;
+				
+				for (Var var : inter.getData()) {
+					if (!var.lineToCode.isEmpty()) {
+						empty = false;
+					}
+				}
+				
+				if (!empty) {
+					now.result.put(codePath, inter);
+				}
+				
+				if (Flag.debug) {
+					System.out.println("--------search end------------");
+				}
+				
 				
 			}
 			out.output(now);
 			projects.set(i, now);
-		}
+		}	
 	}
 
-	private ArrayList<Project> findProject(String extension) {
-		// TODO Auto-generated method stub
-		File codehouse = new File(in.path);
-		File[] projectDirectories = codehouse.listFiles();
-		ArrayList<Project> projects = new ArrayList<Project>();
-		
-		for (File project : projectDirectories) {
-			if (project.isDirectory()) {
-				String projectName = project.getName();
-				String projectPath = project.getAbsolutePath();
-				System.out.println("---------------");
-				System.out.println(projectName);
-				Project now = new Project(projectName, projectPath, extension);
-				projects.add(now);
-			}
-		}
-		
-		return projects;
-	}
+
 
 }
