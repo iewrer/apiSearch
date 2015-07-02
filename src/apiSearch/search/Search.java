@@ -12,8 +12,8 @@ import apiSearch.intermediate.Var;
  */
 public abstract class Search {
 
-	String type;
-	String name;
+	public String type;
+	public String name;
 	
 	public Search() {
 		// TODO Auto-generated constructor stub

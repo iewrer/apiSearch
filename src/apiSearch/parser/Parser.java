@@ -18,11 +18,13 @@ public abstract class Parser {
 		// TODO Auto-generated constructor stub
 		this.language = language;
 		this.path = new String();
+		root = null;
 	}
 	
-	public abstract void parse();
+	public abstract void parse(String name);
 	public abstract void SetFile(String path);
 	public abstract void setSrc(String src);
 	public abstract Object getRoot();
+	public abstract boolean isEmpty();
 
 }

@@ -1,12 +1,16 @@
 package apiSearch.parser;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
 import org.eclipse.jdt.core.dom.AST;
 import org.eclipse.jdt.core.dom.ASTParser;
 import org.eclipse.jdt.core.dom.CompilationUnit;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectWriter;
 
 /**
  * 采用JDT Core进行parse,其root为CompilationUnit类型
@@ -16,19 +20,27 @@ import org.eclipse.jdt.core.dom.CompilationUnit;
 public class JDT extends Parser{
 	
 	String src;
+	String extension;
 
 	public JDT(String language) {
 		// TODO Auto-generated constructor stub
 		super(language);
+		extension = ".json";
 	}
 
 	@Override
-	public void parse() {
+	public void parse(String name) {
 		// TODO Auto-generated method stub
 		String str;
 		
 		try {
+			long read = System.currentTimeMillis();
 			str = readFileToString(path);
+			if (!str.contains("." + name + "(")) {
+				root = null;
+				return;
+			}
+//			System.out.println("file read: " + (System.currentTimeMillis() - read));
 			ASTParser parser = ASTParser.newParser(AST.JLS8);
 			parser.setSource(str.toCharArray());
 			parser.setEnvironment( 
@@ -44,8 +56,9 @@ public class JDT extends Parser{
 			//建立binding
 			parser.setResolveBindings(true);
 			parser.setBindingsRecovery(true);
+			long parse = System.currentTimeMillis();
 			final CompilationUnit cu = (CompilationUnit) parser.createAST(null);
-			
+//			System.out.println("file parse: " + (System.currentTimeMillis() - parse));
 			root = cu;
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -54,7 +67,21 @@ public class JDT extends Parser{
 		
 	}
 
+	private void saveAST(CompilationUnit cu) throws IOException {
+		// TODO Auto-generated method stub
+		ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
+		String json = ow.writeValueAsString(cu);
+		
+		System.out.println(json);
+		System.out.println("Serialized data is saved in " + path);
+	}
+	
+//	private boolean readAST() throws IOException {
+//		// TODO Auto-generated method stub
+//	}
+
 	public String readFileToString(String filePath) throws IOException {
+		
 		StringBuilder fileData = new StringBuilder(2000);
 		BufferedReader reader = new BufferedReader(new FileReader(filePath));
  
@@ -67,7 +94,7 @@ public class JDT extends Parser{
 		}
  
 		reader.close();
- 
+
 		return  fileData.toString();	
 	}
 
@@ -81,5 +108,13 @@ public class JDT extends Parser{
 	
 	public CompilationUnit getRoot() {
 		return (CompilationUnit)root;
+	}
+
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		if (root == null) {
+			return true;
+		}
+		return false;
 	}
 }

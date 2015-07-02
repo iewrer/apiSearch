@@ -25,7 +25,7 @@ public class testSearch {
 		JDT jdt = new JDT("java");
 		jdt.SetFile(path);
 		jdt.setSrc("/Users/barry/Documents/workspace/apiSearch/codehouse");
-		jdt.parse();
+//		jdt.parse();
 		
 		
 		JDTSearch searcher = new JDTSearch();

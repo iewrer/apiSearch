@@ -1,5 +1,7 @@
 package apiSearch.tool;
 
+import org.apache.commons.lang.time.StopWatch;
+
 import strategy.JavaStrategy;
 import strategy.Strategy;
 import apiSearch.api.JDK;
@@ -40,6 +42,8 @@ public class Main {
 		
 		
 		strategy.strategy(extension);
+		
+		
 		
 		if (in.create) {
 			

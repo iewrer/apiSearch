@@ -4,15 +4,18 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 
+import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.ASTVisitor;
 import org.eclipse.jdt.core.dom.CompilationUnit;
 import org.eclipse.jdt.core.dom.Expression;
 import org.eclipse.jdt.core.dom.IBinding;
 import org.eclipse.jdt.core.dom.ITypeBinding;
 import org.eclipse.jdt.core.dom.IVariableBinding;
+import org.eclipse.jdt.core.dom.MethodDeclaration;
 import org.eclipse.jdt.core.dom.MethodInvocation;
 import org.eclipse.jdt.core.dom.SimpleName;
 import org.eclipse.jdt.core.dom.VariableDeclarationFragment;
+import org.eclipse.jdt.internal.corext.dom.ASTNodes;
 
 import apiSearch.intermediate.Var;
 import apiSearch.staticClass.Flag;
@@ -186,6 +189,7 @@ class InvocationVisitor extends MyVisitor {
 
 	
 	 public boolean visit(MethodInvocation node) {
+		 
 		 Expression exp = node.getExpression();
 		 if (exp == null) {
 			return true;
@@ -222,7 +226,20 @@ class InvocationVisitor extends MyVisitor {
 				 System.out.println("	" + typeBinding.getQualifiedName());
 			}
 			 
-			 input.addMap(pos, node.toString());
+			 input.addMap(pos, node.toString().trim());
+			 
+			 if(ASTNodes.getParent(node, ASTNode.METHOD_DECLARATION) != null) {
+				 ASTNode tmp = ASTNodes.getParent(node, ASTNode.METHOD_DECLARATION);
+				 MethodDeclaration parentNode = (MethodDeclaration)tmp;
+				 
+				 int parentLine = cu.getLineNumber(tmp.getStartPosition() - 1);
+				 String parent = "	api used in "	
+							+ "method: " + parentNode.getName().toString()
+							+ " (line" + parentLine + ")";
+				 input.lineToParent.put(pos, parent);
+			 }
+			 
+			 
 			 
 		}
 		return true;
