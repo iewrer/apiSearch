@@ -18,14 +18,17 @@ public class Var implements Serializable{
 
 	int dec;
 	String code;
+	
 	transient Object node;
 	public Map<Integer, String> lineToCode; //lineNumber -> Code
 	public Map<Integer, String> lineToParent;
+	public Map<String, Integer> apiToLine; 
 	
 	public Var() {
 		// TODO Auto-generated constructor stub
 		lineToCode = new HashMap<Integer, String>();
 		lineToParent = new HashMap<>();
+		apiToLine = new HashMap<>();
 	}
 	public void setNode(Object node) {
 		this.node = node;
@@ -39,6 +42,12 @@ public class Var implements Serializable{
 	}
 	public void addMap(int pos, String code) {
 		lineToCode.put(pos, code);
+	}
+	public boolean hasAPI(String api) {
+		if (apiToLine.containsKey(api)) {
+			return true;
+		}
+		return false;
 	}
 	@Override
 	public String toString() {
