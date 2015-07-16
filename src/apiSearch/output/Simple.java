@@ -5,6 +5,7 @@ import java.util.Map.Entry;
 
 import apiSearch.intermediate.InterRep;
 import apiSearch.intermediate.Var;
+import apiSearch.tool.Input;
 import apiSearch.tool.Project;
 
 
@@ -17,9 +18,11 @@ import apiSearch.tool.Project;
  */
 
 public class Simple extends Output {
+	Input in;
 
-	public Simple() {
+	public Simple(Input in) {
 		// TODO Auto-generated constructor stub
+		this.in = in;
 	}
 
 	@Override
@@ -44,14 +47,16 @@ public class Simple extends Output {
 			if (inter.getData().isEmpty()) {
 				continue;
 			}
-			else {
-				System.out.println("\nfile:" + file);
-			}
 			
 			for (Var j : inter.getData()) {
-				if (!j.toString().isEmpty()) {
-					System.out.println("" + j.toString());
-				}		
+				if (j.hasAPI(in.api)) {
+					System.out.println("\nfile:" + file);
+					String result = j.toString(in.api);
+					
+					if (!result.isEmpty()) {
+						System.out.println("" + result);
+					}
+				}	
 			}
 
 		}

@@ -1,5 +1,7 @@
 package apiSearch.tool;
 
+import java.io.File;
+
 
 /**
  * 读取输入参数
@@ -18,15 +20,17 @@ public class Input {
 	public String api;
 	
 	public String path;//整个代码库的存放位置
-	public String savaPath;
-	public String jdkPath;
+	public String savaPath;//整个结果的保存位置
+	public String jdkPath;//jdk源代码路径，用于区分是否官方
 	
 	public boolean debug;
+	public boolean delete;
 
 	public Input() {
 		// TODO Auto-generated constructor stub
 		create = true;
 		debug = false;
+		delete = false;
 		inter = new String();
 		output = new String();
 		search = new String();
@@ -85,10 +89,28 @@ public class Input {
 			else if (now.startsWith("-debug")) {
 				debug = true;
 			}
+			else if (now.startsWith("-deleteResult")) {
+				delete = true;
+			}
 			else {
 				System.err.println(now);
 				throw new Exception("invalid option exist!");
 			}			
+		}
+		
+		
+		File f = new File(savaPath);
+		File[] files = f.listFiles();
+		if (delete) {
+			for (int j = 0; j < files.length; j++) {
+				files[j].delete();
+			}
+		}
+		else {
+			if (files != null && files.length > 1) {
+				System.out.println("having results: " + files.length);
+				create = false;
+			}
 		}
 		
 		if (output.isEmpty() || search.isEmpty() || parser.isEmpty() 

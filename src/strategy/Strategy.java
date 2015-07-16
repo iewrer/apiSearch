@@ -136,7 +136,7 @@ public abstract class Strategy {
 		// TODO Auto-generated method stub
 		if (validOutput.contains(in.output)) {
 			if (in.output.contains("simple")) {
-				out = new Simple();
+				out = new Simple(in);
 			}
 		}
 		else {

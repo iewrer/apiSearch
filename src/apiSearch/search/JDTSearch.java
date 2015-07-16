@@ -1,8 +1,6 @@
 package apiSearch.search;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 
 import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.ASTVisitor;
@@ -119,8 +117,9 @@ class VarVisitor extends MyVisitor {
 			}
 		}
 		
-		if (t != null && isTarget(t)) {
-			
+//		if (t != null && isTarget(t)) {
+		if (t != null) {
+		
 			int pos = cu.getLineNumber(node.getStartPosition() - 1);
 
 			if (Flag.debug) {
@@ -214,8 +213,8 @@ class InvocationVisitor extends MyVisitor {
 			}
 		}
 
-		 if (typeBinding != null  && nameVistor.same && var_type.getQualifiedName().equals(typeBinding.getQualifiedName()) && node.getName().toString().equals(name)) {
-
+		 if (typeBinding != null  && nameVistor.same && var_type.getQualifiedName().equals(typeBinding.getQualifiedName()) ) {
+			 
 			 int pos = cu.getLineNumber(node.getStartPosition() - 1);
 
 			 if (Flag.debug) {
@@ -227,6 +226,11 @@ class InvocationVisitor extends MyVisitor {
 			}
 			 
 			 input.addMap(pos, node.toString().trim());
+//			 System.out.println(var_type.getQualifiedName() + "." + node.getName());
+			 
+			 //记录api的相关信息
+			 input.addAPI(trimName(var_type.getQualifiedName()) + "." + node.getName(), pos);
+			 addTypes(var_type, trimName(var_type.getQualifiedName()), node.getName().toString());
 			 
 			 if(ASTNodes.getParent(node, ASTNode.METHOD_DECLARATION) != null) {
 				 ASTNode tmp = ASTNodes.getParent(node, ASTNode.METHOD_DECLARATION);
@@ -237,12 +241,28 @@ class InvocationVisitor extends MyVisitor {
 							+ "method: " + parentNode.getName().toString()
 							+ " (line" + parentLine + ")";
 				 input.lineToParent.put(pos, parent);
-			 }
-			 
-			 
-			 
+			 }		 
 		}
 		return true;
+	}
+	 /**
+	  * 记录某个api是否来自于其基类和接口中的api
+	  * @param t
+	  * @param type
+	  * @param name
+	  */
+	public void addTypes(ITypeBinding t, String type, String name) {	
+		ITypeBinding p = t.getSuperclass();
+		while(p != null) {
+			String trimedPName = trimName(p.getQualifiedName());
+			input.addType(trimedPName + "." + name, type + "." + name);
+			p = p.getSuperclass();
+		}
+		ITypeBinding[] in = t.getInterfaces();
+		for (int i = 0; i < in.length; i++) {
+			String trimedIName = trimName(in[i].getQualifiedName());
+			input.addType(trimedIName + "." + name, type + "." + name);
+		}
 	}
 	
 }

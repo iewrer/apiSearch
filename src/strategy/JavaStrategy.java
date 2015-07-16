@@ -3,7 +3,6 @@ package strategy;
 import java.io.File;
 import java.io.IOException;
 
-import org.apache.commons.collections.map.StaticBucketMap;
 
 import apiSearch.intermediate.FileIO;
 import apiSearch.intermediate.InterRep;
@@ -28,9 +27,11 @@ public class JavaStrategy extends Strategy {
 		// TODO Auto-generated method stub
 
 		if (in.create) {
+			System.out.println("-------------create search---------------");
 			createSearch(extension);
 		}		
 		else {
+			System.out.println("-------------read search---------------");
 			readSearch();
 		}
 
@@ -42,7 +43,7 @@ public class JavaStrategy extends Strategy {
 		
 		File results = new File(readPath);
 		File[] files = results.listFiles();
-		if (files != null) {
+		if (files != null && files.length > 1) {
 			
 			System.out.println("-------------intermediate data reading---------------");
 			for(File project : files) {
@@ -91,10 +92,18 @@ public class JavaStrategy extends Strategy {
 		long findprojectEnd = System.currentTimeMillis();
 //		
 		System.out.println("project find last: " + (findprojectEnd - findprojectBegin));
-		searchAPI();
+		parse();
 	}
 
 	private void searchAPI() {
+		// TODO Auto-generated method stub
+		for (int i = 0; i < projects.size(); i++) {
+			Project now = projects.get(i);
+			out.output(now);
+		}
+	}
+
+	private void parse() {
 		// TODO Auto-generated method stub
 		JDT jdt = (JDT)parser;
 		JDTSearch searcher = (JDTSearch)search;
@@ -166,7 +175,7 @@ public class JavaStrategy extends Strategy {
 				
 				
 			}
-			out.output(now);
+//			out.output(now);
 			projects.set(i, now);
 //			long last = System.currentTimeMillis() - projectBegin;
 //			System.out.println("!!!this project use: " + last + " Millis!!!");
