@@ -175,7 +175,7 @@ public class JavaStrategy extends Strategy {
 				
 				
 			}
-//			out.output(now);
+			out.output(now);
 			projects.set(i, now);
 //			long last = System.currentTimeMillis() - projectBegin;
 //			System.out.println("!!!this project use: " + last + " Millis!!!");

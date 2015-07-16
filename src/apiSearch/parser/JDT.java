@@ -1,49 +1,12 @@
 package apiSearch.parser;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.util.AbstractList;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
-import java.util.jar.JarEntry;
-import java.util.jar.JarInputStream;
 
 import org.eclipse.jdt.core.dom.AST;
-import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.ASTParser;
 import org.eclipse.jdt.core.dom.CompilationUnit;
-import org.eclipse.jdt.core.dom.Type;
-import org.eclipse.jdt.internal.compiler.codegen.TypeAnnotationCodeStream;
-import org.nustaq.serialization.FSTConfiguration;
-import org.nustaq.serialization.FSTObjectInput;
-import org.nustaq.serialization.FSTObjectOutput;
-import org.objenesis.instantiator.ObjectInstantiator;
-import org.objenesis.strategy.InstantiatorStrategy;
-import org.objenesis.strategy.StdInstantiatorStrategy;
-import org.w3c.dom.NodeList;
-
-import com.esotericsoftware.kryo.Kryo;
-import com.esotericsoftware.kryo.Registration;
-import com.esotericsoftware.kryo.Serializer;
-import com.esotericsoftware.kryo.io.Input;
-import com.esotericsoftware.kryo.io.Output;
-import com.esotericsoftware.kryo.serializers.CollectionSerializer;
-import com.esotericsoftware.kryo.serializers.FieldSerializer;
-import com.esotericsoftware.kryo.serializers.JavaSerializer;
-import com.esotericsoftware.minlog.Log;
-import com.google.gson.Gson;
-
-import de.javakaffee.kryoserializers.ArraysAsListSerializer;
 
 /**
  * 采用JDT Core进行parse,其root为CompilationUnit类型
@@ -54,7 +17,6 @@ public class JDT extends Parser{
 	
 	String src;
 	String extension;
-	static FSTConfiguration conf = FSTConfiguration.createDefaultConfiguration();
 
 	public JDT(String language) {
 		// TODO Auto-generated constructor stub
